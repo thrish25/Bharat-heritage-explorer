@@ -6,6 +6,7 @@ export const TAJ_MAHAL_AR_CONFIG: ARMonumentConfig = {
   audioPrefix: 'taj',
   subtitleKey: 'taj',
   modelSrc: '/assets/models/taj-mahal.glb',
+  posterSrc: '/assets/images/ar/taj-mahal-ar-poster.webp',
   name: {
     en: 'Taj Mahal',
     kn: 'ತಾಜ್ ಮಹಲ್',

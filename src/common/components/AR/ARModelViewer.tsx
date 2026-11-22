@@ -260,6 +260,7 @@ export const ARModelViewer = forwardRef<ARModelViewerHandle, ARModelViewerProps>
         ref={modelViewerRef}
         id="arMonumentViewer"
         src={config.modelSrc}
+        poster={config.posterSrc || undefined}
         alt={config.altText}
         ar
         ar-modes="webxr scene-viewer quick-look"
@@ -348,21 +349,21 @@ export const ARModelViewer = forwardRef<ARModelViewerHandle, ARModelViewerProps>
 
         {/* Loading Progress State */}
         {isLoading && (
-          <div className="absolute inset-0 z-40 bg-[#121416]/85 backdrop-blur-sm flex flex-col items-center justify-center p-6 text-center pointer-events-auto">
+          <div className="absolute inset-0 z-40 bg-[#121416]/40 backdrop-blur-[1px] flex flex-col items-center justify-center p-6 text-center pointer-events-auto">
             <div className="w-14 h-14 rounded-full border-2 border-[rgba(198,161,91,0.2)] border-t-[#C6A15B] animate-spin mb-4" />
-            <div className="font-cinzel text-base font-bold text-[#E0C27B] tracking-wider mb-2">
+            <div className="font-cinzel text-base font-bold text-[#E0C27B] tracking-wider mb-2 drop-shadow-md">
               Loading 3D Monument Model
             </div>
-            <p className="text-xs text-[#B8B2A6] max-w-sm mb-3">
+            <p className="text-xs text-[#F3EBDD]/90 max-w-sm mb-3 drop-shadow">
               Downloading high-fidelity architectural mesh and PBR materials...
             </p>
-            <div className="w-48 h-1.5 bg-[#1C1F21] rounded-full overflow-hidden border border-[rgba(198,161,91,0.3)]">
+            <div className="w-48 h-1.5 bg-[#1C1F21]/80 rounded-full overflow-hidden border border-[rgba(198,161,91,0.4)] shadow-md">
               <div
                 className="h-full bg-gradient-to-r from-[#C6A15B] to-[#E0C27B] transition-all duration-300"
                 style={{ width: `${Math.max(10, loadProgress)}%` }}
               />
             </div>
-            <span className="text-[10px] font-numeric text-[#858078] mt-2">
+            <span className="text-[10px] font-numeric text-[#E0C27B] font-semibold mt-2 drop-shadow">
               {loadProgress}% Loaded
             </span>
           </div>
