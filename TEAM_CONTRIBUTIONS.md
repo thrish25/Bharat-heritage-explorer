@@ -24,10 +24,10 @@ The **Royal Heritage Explorer** project is organized into dedicated feature modu
 
 | Member | Branch | Area of Responsibility | Assigned Module Directories |
 |---|---|---|---|
-| **Thrisha** | `feature/thrisha` | **Virtual Exploration Lead**<br>• Ellora Caves Virtual Tour<br>• Hampi Virtual Tour<br>• Taj Mahal Virtual Tour | `src/modules/virtual-exploration/ellora/`<br>`src/modules/virtual-exploration/hampi/`<br>`src/modules/virtual-exploration/taj-mahal/` |
-| **Suchithra BR** | `feature/suchithra` | **Augmented Reality (AR) Lead**<br>• Ellora Caves AR Module<br>• Hampi AR Module<br>• Taj Mahal AR Module | `src/modules/ar/ellora/`<br>`src/modules/ar/hampi/`<br>`src/modules/ar/taj-mahal/` |
-| **Rashmi** | `feature/rashmi` | **Konark Subsystem Lead**<br>• Konark Virtual Tour<br>• Konark AR Module | `src/modules/virtual-exploration/konark/`<br>`src/modules/ar/konark/` |
-| **Common Baseline** | `main` | **Master Platform Integration**<br>• Homepage & Layout<br>• Shared 360 & AR Viewer Engines<br>• Common Styling, Context & Routing | `src/pages/`, `src/components/`,<br>`src/engines/`, `src/services/`,<br>`src/data/monuments.ts`, `src/data/ar/` |
+| **Thrisha** | `feature/thrisha` | **Virtual Exploration Lead**<br>• Ellora Caves Virtual Tour<br>• Hampi Virtual Tour<br>• Taj Mahal Virtual Tour | `src/modules/thrisha/ellora-virtual/`<br>`src/modules/thrisha/hampi-virtual/`<br>`src/modules/thrisha/taj-mahal-virtual/` |
+| **Suchithra BR** | `feature/suchithra` | **Augmented Reality (AR) Lead**<br>• Ellora Caves AR Module<br>• Hampi AR Module<br>• Taj Mahal AR Module | `src/modules/suchithra/ellora-ar/`<br>`src/modules/suchithra/hampi-ar/`<br>`src/modules/suchithra/taj-mahal-ar/` |
+| **Rashmi** | `feature/rashmi` | **Konark Subsystem Lead**<br>• Konark Virtual Tour<br>• Konark AR Module | `src/modules/rashmi/konark-virtual/`<br>`src/modules/rashmi/konark-ar/` |
+| **Common Baseline** | `main` | **Master Platform Integration**<br>• Homepage & Layout<br>• Shared 360 & AR Viewer Engines<br>• Common Styling, Context & Routing | `src/common/`, `src/pages/`,<br>`src/components/`, `src/engines/`,<br>`src/data/monuments.ts`, `src/data/ar/` |
 
 ---
 
@@ -35,25 +35,25 @@ The **Royal Heritage Explorer** project is organized into dedicated feature modu
 
 ### 1. Thrisha — Virtual Exploration (Ellora, Hampi, Taj Mahal)
 - **Code Ownership:**
-  - `src/modules/virtual-exploration/ellora/` (Scenes, viewpoints, 22 hotspots, Cave 10 & 16)
-  - `src/modules/virtual-exploration/hampi/` (Scenes, viewpoints, 20 hotspots, Stone Chariot)
-  - `src/modules/virtual-exploration/taj-mahal/` (Scenes, viewpoints, 28 hotspots, Charbagh & Iwan)
+  - `src/modules/thrisha/ellora-virtual/` (Scenes, viewpoints, 28 hotspots, Cave 10 & 16)
+  - `src/modules/thrisha/hampi-virtual/` (Scenes, viewpoints, 20 hotspots, Stone Chariot)
+  - `src/modules/thrisha/taj-mahal-virtual/` (Scenes, viewpoints, 28 hotspots, Charbagh & Iwan)
 - **Asset Responsibilities:**
   - Panoramas and audio narration in `public/assets/monuments/{ellora,hampi,taj-mahal}/`
 
 ### 2. Suchithra BR — AR Modules (Ellora, Hampi, Taj Mahal)
 - **Code Ownership:**
-  - `src/modules/ar/ellora/` (3D camera orbits, FOV, lighting, suggested questions)
-  - `src/modules/ar/hampi/` (3D camera orbits, FOV, lighting, suggested questions)
-  - `src/modules/ar/taj-mahal/` (3D camera orbits, FOV, lighting, suggested questions)
+  - `src/modules/suchithra/ellora-ar/` (3D camera orbits, FOV, lighting, suggested questions)
+  - `src/modules/suchithra/hampi-ar/` (3D camera orbits, FOV, lighting, suggested questions)
+  - `src/modules/suchithra/taj-mahal-ar/` (3D camera orbits, FOV, lighting, suggested questions)
 - **Asset Responsibilities:**
   - 3D models (`/assets/models/{ellora-caves,hampi-stone-chariot,taj-mahal}.glb`)
   - AR audio narration (`/assets/audio/ar/{ellora,hampi,taj}_*`)
 
 ### 3. Rashmi — Konark Modules (Virtual Exploration & AR)
 - **Code Ownership:**
-  - `src/modules/virtual-exploration/konark/` (Scenes, viewpoints, 18 hotspots, Simhadwara & Jagamohana)
-  - `src/modules/ar/konark/` (3D camera orbits, sundial model configuration, questions)
+  - `src/modules/rashmi/konark-virtual/` (Scenes, viewpoints, 18 hotspots, Simhadwara & Jagamohana)
+  - `src/modules/rashmi/konark-ar/` (3D camera orbits, sundial model configuration, questions)
 - **Asset Responsibilities:**
   - Konark panoramas & 360 audio in `public/assets/monuments/konark/`
   - Konark 3D model (`/assets/models/konark-sun-temple.glb`)

@@ -10,10 +10,10 @@ Our development model organizes the project into dedicated modules per developer
 
 | Member | Branch | Area of Responsibility | Modules Directory |
 |---|---|---|---|
-| **Thrisha** | `feature/thrisha` | **Virtual Exploration Lead**<br>• Ellora Caves Virtual Tour<br>• Hampi Virtual Tour<br>• Taj Mahal Virtual Tour | `src/modules/virtual-exploration/ellora/`<br>`src/modules/virtual-exploration/hampi/`<br>`src/modules/virtual-exploration/taj-mahal/` |
-| **Suchithra BR** | `feature/suchithra` | **Augmented Reality (AR) Lead**<br>• Ellora Caves AR Module<br>• Hampi AR Module<br>• Taj Mahal AR Module | `src/modules/ar/ellora/`<br>`src/modules/ar/hampi/`<br>`src/modules/ar/taj-mahal/` |
-| **Rashmi** | `feature/rashmi` | **Konark Subsystem Lead**<br>• Konark Virtual Tour<br>• Konark AR Module | `src/modules/virtual-exploration/konark/`<br>`src/modules/ar/konark/` |
-| **Common Baseline** | `main` | **Master Platform Integration**<br>• Common Homepage & Layout<br>• Shared 360° & AR Engines<br>• Styling, Context & Master Registries | `src/pages/`, `src/components/`,<br>`src/engines/`, `src/services/`,<br>`src/data/monuments.ts`, `src/data/ar/` |
+| **Thrisha** | `feature/thrisha` | **Virtual Exploration Lead**<br>• Ellora Caves Virtual Tour<br>• Hampi Virtual Tour<br>• Taj Mahal Virtual Tour | `src/modules/thrisha/ellora-virtual/`<br>`src/modules/thrisha/hampi-virtual/`<br>`src/modules/thrisha/taj-mahal-virtual/` |
+| **Suchithra BR** | `feature/suchithra` | **Augmented Reality (AR) Lead**<br>• Ellora Caves AR Module<br>• Hampi AR Module<br>• Taj Mahal AR Module | `src/modules/suchithra/ellora-ar/`<br>`src/modules/suchithra/hampi-ar/`<br>`src/modules/suchithra/taj-mahal-ar/` |
+| **Rashmi** | `feature/rashmi` | **Konark Subsystem Lead**<br>• Konark Virtual Tour<br>• Konark AR Module | `src/modules/rashmi/konark-virtual/`<br>`src/modules/rashmi/konark-ar/` |
+| **Common Baseline** | `main` | **Master Platform Integration**<br>• Common Homepage & Layout<br>• Shared 360° & AR Engines<br>• Styling, Context & Master Registries | `src/common/`, `src/pages/`,<br>`src/components/`, `src/engines/`,<br>`src/data/monuments.ts`, `src/data/ar/` |
 
 ---
 
