@@ -1,4 +1,4 @@
-# SUCHITHRA AR — PHASE 2.1: AR POSTER PREVIEWS REPORT
+
 ## Implementation & Verification of Lightweight AR Poster Previews for Ellora Caves, Hampi, and Taj Mahal
 **Royal Heritage Explorer — Branch: `feature/suchithra`**  
 **Subsystem Lead:** Suchithra BR (AR Lead)  
