@@ -1,36 +1,38 @@
 # Royal Heritage Explorer — Contribution & Collaboration Guidelines
 
-Welcome to the **Royal Heritage Explorer** project! This document outlines our shared collaboration standards, branching models, quality gates, and GitHub workflows for our team.
+Welcome to the **Royal Heritage Explorer** project! This document outlines our shared collaboration standards, branching models, quality gates, and GitHub workflows for our 3-developer team.
 
 ---
 
-## 1. Core Team & Collaboration Philosophy
+## 1. Team Responsibilities & Ownership Boundaries
 
-Our development model is built on **equal responsibility, shared code ownership, and peer review**:
+Our development model organizes the project into dedicated modules per developer while maintaining a common integrated core on `main`:
 
-- **Equal Responsibility:** The three main developers (**Thrisha**, **Suchithra**, and **Rashmi**) share equal development responsibility across the entire project codebase.
-- **Supporting Contributor:** **Sahana** contributes supporting work (testing, documentation, UI improvements, bug fixes).
-- **No Silos:** There is **no permanent ownership** of a single heritage site (Ellora, Hampi, Konark, Taj Mahal) and **no exclusive ownership** of a specific subsystem (AR vs. 360° Virtual Tour vs. Audio vs. UI).
-- **Genuine Contributions:** Every team member contributes through their own commits and Pull Requests (PRs). No fabricated or ghost contributions are permitted.
-- **Coordination:** All tasks, bugs, and feature discussions are coordinated transparently via GitHub Issues, Project Boards, and Pull Request reviews.
+| Member | Branch | Area of Responsibility | Modules Directory |
+|---|---|---|---|
+| **Thrisha** | `feature/thrisha` | **Virtual Exploration Lead**<br>• Ellora Caves Virtual Tour<br>• Hampi Virtual Tour<br>• Taj Mahal Virtual Tour | `src/modules/virtual-exploration/ellora/`<br>`src/modules/virtual-exploration/hampi/`<br>`src/modules/virtual-exploration/taj-mahal/` |
+| **Suchithra BR** | `feature/suchithra` | **Augmented Reality (AR) Lead**<br>• Ellora Caves AR Module<br>• Hampi AR Module<br>• Taj Mahal AR Module | `src/modules/ar/ellora/`<br>`src/modules/ar/hampi/`<br>`src/modules/ar/taj-mahal/` |
+| **Rashmi** | `feature/rashmi` | **Konark Subsystem Lead**<br>• Konark Virtual Tour<br>• Konark AR Module | `src/modules/virtual-exploration/konark/`<br>`src/modules/ar/konark/` |
+| **Common Baseline** | `main` | **Master Platform Integration**<br>• Common Homepage & Layout<br>• Shared 360° & AR Engines<br>• Styling, Context & Master Registries | `src/pages/`, `src/components/`,<br>`src/engines/`, `src/services/`,<br>`src/data/monuments.ts`, `src/data/ar/` |
 
 ---
 
 ## 2. Branching Architecture
 
-We maintain a strict and clean branch model:
+We maintain a clean and conflict-free branch structure:
 
-| Branch Name | Role & Access |
-|---|---|
-| `main` | **Production / Stable Integrated Baseline.** Directly protected. Never commit or push directly to `main`. Merges occur strictly via tested Pull Requests. |
-| `feature/thrisha` | Active feature workspace for **Thrisha**. |
-| `feature/suchithra` | Active feature workspace for **Suchithra**. |
-| `feature/rashmi` | Active feature workspace for **Rashmi**. |
-| `feature/sahana` | Workspace for **Sahana** when contributing agreed supporting tasks. |
+```
+main (Production & Integration Baseline — Protected)
+ │
+ ├── feature/thrisha    (Thrisha: Ellora, Hampi, Taj Mahal Virtual Exploration)
+ ├── feature/suchithra  (Suchithra: Ellora, Hampi, Taj Mahal AR Modules)
+ └── feature/rashmi     (Rashmi: Konark Virtual Exploration & AR)
+```
 
 > [!IMPORTANT]
+> **Never commit or push directly to `main`.**
 > **Never force-push (`git push --force`)** to any branch.
-> Always pull the latest changes from `main` before starting work or creating a Pull Request.
+> Always pull the latest changes from `main` before starting work or opening a Pull Request.
 
 ---
 
@@ -39,68 +41,40 @@ We maintain a strict and clean branch model:
 Every developer must follow these steps for every task or feature:
 
 ### Step 1: Clone the Repository
-Open your terminal (PowerShell, Bash, or Command Prompt):
 ```bash
-# Clone the repository to your local machine
-git clone https://github.com/<YOUR_ORGANIZATION_OR_USERNAME>/royal-heritage-explorer.git
-
-# Move into the project directory
-cd royal-heritage-explorer/HeritageWebsite_New/royal-heritage-platform
+git clone https://github.com/<YOUR_GITHUB_REPO_URL>.git
+cd HeritageWebsite_New/royal-heritage-platform
 ```
 
 ### Step 2: Install Dependencies & Setup Environment
 ```bash
-# Install required Node.js dependencies
 npm install
-
-# Setup your local environment file (never commit secrets!)
 cp .env.example .env
 # Edit .env and enter your GEMINI_API_KEY
 ```
 
-### Step 3: Switch to or Create Your Designated Feature Branch
-Check out your team branch:
-
+### Step 3: Switch to Your Designated Feature Branch
 * **Thrisha:**
   ```bash
-  git checkout -b feature/thrisha
-  # or if the branch already exists locally or remotely:
   git checkout feature/thrisha
   ```
-
 * **Suchithra:**
   ```bash
-  git checkout -b feature/suchithra
-  # or if the branch already exists:
   git checkout feature/suchithra
   ```
-
 * **Rashmi:**
   ```bash
-  git checkout -b feature/rashmi
-  # or if the branch already exists:
   git checkout feature/rashmi
   ```
 
-* **Sahana:**
-  ```bash
-  git checkout -b feature/sahana
-  # or if the branch already exists:
-  git checkout feature/sahana
-  ```
-
-### Step 4: Synchronize with Latest `main` Before Starting Work
-Always ensure your feature branch has the newest merged changes before writing new code:
+### Step 4: Synchronize with Latest `main`
 ```bash
-# Fetch latest status from GitHub
 git fetch origin
-
-# Merge latest main changes into your active branch
 git merge origin/main
 ```
 
 ### Step 5: Develop and Test Locally
-Run the platform locally and verify your changes:
+Work within your assigned module directory:
 ```bash
 # Run full platform (Frontend on 5173 + Backend on 3001)
 npm start
@@ -110,102 +84,46 @@ npm run build
 ```
 
 ### Step 6: Commit Your Changes
-Make focused, meaningful commits under your own Git user profile:
 ```bash
-# Stage the files you intentionally modified
-git add src/path/to/changed-file.tsx
-
-# Commit with a clear, descriptive message
-git commit -m "feat(viewer): optimize audio transition timing across scene changes"
+git add src/modules/...
+git commit -m "feat(module): descriptive commit message"
 ```
-
-> **Commit Message Convention:**
-> - `feat(...)`: New feature or user-facing addition
-> - `fix(...)`: Bug fix or hotspot/AR correction
-> - `refactor(...)`: Code cleanup without behavior change
-> - `docs(...)`: Documentation or guide updates
-> - `test(...)`: Unit/integration testing additions
 
 ### Step 7: Push Your Branch to GitHub
 ```bash
-# Push your branch (first time):
-git push -u origin feature/<your-name>
-
-# Subsequent pushes:
-git push
+git push origin feature/<your-name>
 ```
 
 ### Step 8: Open a Pull Request (PR) on GitHub
-1. Navigate to the GitHub repository in your browser.
-2. Click **"Compare & pull request"**.
-3. Set **Base:** `main` $\leftarrow$ **Compare:** `feature/<your-name>`.
-4. Fill out the PR template:
-   - What changed and why.
-   - Verification steps performed (tested in desktop, tested in mobile, etc.).
-   - Linked GitHub Issue (e.g., `Closes #12`).
-5. Request review from at least one other main developer.
-6. Once approved and checks pass, merge into `main` (using **Squash and Merge** or **Create a Merge Commit** as agreed).
+1. Set **Base:** `main` $\leftarrow$ **Compare:** `feature/<your-name>`.
+2. Fill out what changed and verify that `npm run build` passed.
+3. Request review from a peer.
+4. Merge after approval.
 
 ---
 
 ## 4. How to Avoid & Resolve Merge Conflicts
 
-Because all three main developers have equal responsibility across the platform, multiple developers may touch shared modules (e.g., `src/data/monuments.ts`, navigation, or viewers). Follow these rules:
+Because the codebase is now cleanly partitioned into `src/modules/virtual-exploration/` and `src/modules/ar/`:
+- **Thrisha** works in `modules/virtual-exploration/{ellora,hampi,taj-mahal}/`.
+- **Suchithra** works in `modules/ar/{ellora,hampi,taj-mahal}/`.
+- **Rashmi** works in `modules/{virtual-exploration,ar}/konark/`.
+Since each developer owns distinct files, Git merges into `main` will automatically succeed with zero file conflicts!
 
-### Prevention Strategies
-1. **Communicate on GitHub Issues / Chat:** Before editing shared files, notify the team (e.g., *"Thrisha is updating Hampi hotspots today in monuments.ts"*).
-2. **Keep PRs Small and Frequent:** Do not keep a branch open for weeks. Merge small, tested increments into `main` promptly.
-3. **Daily Sync:** Run `git pull origin main` into your feature branch daily.
-
-### Resolving Conflicts When They Occur
-If GitHub indicates your branch has merge conflicts with `main`:
-
+If a conflict occurs on a shared integration file:
 ```bash
-# 1. Ensure your local main is up to date
-git checkout main
-git pull origin main
-
-# 2. Switch back to your feature branch
 git checkout feature/<your-name>
-
-# 3. Merge main into your feature branch
 git merge main
+# Resolve conflict markers in VS Code / IDE
+npm run build
+git commit -m "chore: resolve merge conflicts with main"
+git push origin feature/<your-name>
 ```
-
-4. Git will mark conflict sections in files with `<<<<<<<`, `=======`, and `>>>>>>>`.
-5. Open the files in VS Code / your IDE.
-6. Review both changes, retain the intended code, and remove conflict markers.
-7. Test the application locally to make sure it compiles and runs without regression:
-   ```bash
-   npm run build
-   ```
-8. Stage the resolved files and finish the merge:
-   ```bash
-   git add <resolved-files>
-   git commit -m "chore: resolve merge conflicts with main"
-   git push origin feature/<your-name>
-   ```
 
 ---
 
 ## 5. Project Protection & Safeguards
 
-This is an established, museum-grade application. The following rules are **strictly enforced**:
-
-1. **Asset Integrity:** Never delete, rename, recompress, or replace panorama images, audio files, or 3D AR `.glb` models without explicit written team approval.
-2. **Coordinates & Calibration:** Do not alter working 360° hotspot pitch/yaw coordinates or AR model rotation/scaling vectors unless performing verified historical re-calibration.
-3. **No Breaking Redesigns:** Do not overhaul working UI components, themes, or layouts. Work must build upon existing designs incrementally.
-4. **Environment Security:** Never commit `.env` or `.env.local` containing live API keys. Always keep them in `.gitignore`.
-5. **No Force-Pushing:** `git push --force` is disabled on all shared branches to prevent history loss.
-
----
-
-## 6. Pre-Merge Verification Checklist
-
-Before approving or merging any PR into `main`, verify:
-
-- [ ] `npm run build` passes with 0 TypeScript/Vite errors.
-- [ ] 360° Virtual Tour loads all 4 heritage sites properly.
-- [ ] AR model viewer renders without WebGL/canvas crashes.
-- [ ] Trilingual switcher (English, Kannada, Hindi) functions across the updated view.
-- [ ] No extraneous files or debug logs committed.
+- **Asset Locations:** 360° panoramas, audio narration, and 3D `.glb` models remain in `public/assets/`. Do not move, rename, or recompress them.
+- **Coordinates & Hotspots:** Do not alter working hotspot pitch/yaw coordinates without verification.
+- **Environment Security:** Never commit `.env` or `.env.local` containing live API keys. Always use `.env.example`.

@@ -69,48 +69,55 @@ npm run preview
 
 ---
 
+## 👥 Team Responsibilities & GitHub Branches
+
+| Developer | Branch | Responsibility Scope | Dedicated Modules |
+|---|---|---|---|
+| **Thrisha** | `feature/thrisha` | **Virtual Exploration Lead** | `src/modules/virtual-exploration/{ellora, hampi, taj-mahal}/` |
+| **Suchithra BR** | `feature/suchithra` | **Augmented Reality (AR) Lead** | `src/modules/ar/{ellora, hampi, taj-mahal}/` |
+| **Rashmi** | `feature/rashmi` | **Konark Subsystem Lead** | `src/modules/{virtual-exploration, ar}/konark/` |
+| **Integrated Core** | `main` | **Master Common Platform** | `src/pages/`, `src/components/`, `src/data/`, `src/styles/` |
+
+---
+
 ## 📁 Source Architecture
 
 ```
-royal-heritage-platform/
-├── package.json               # Dependencies (React 19, Tailwind v4, Lucide React, Vite)
-├── tsconfig.json              # Strict TypeScript configuration
-├── vite.config.ts             # Vite configuration with Tailwind CSS v4 plugin
-├── index.html                 # Master HTML document with Google Heritage Fonts
-├── public/
-│   └── images/                # High-resolution authentic monument and panorama imagery
-└── src/
-    ├── styles/
-    │   ├── design-tokens.css  # Centralized CSS variables for both light and dark palettes
-    │   ├── global.css         # Museum typography, scrollbars, and Tailwind layers
-    │   └── viewer-theme.css   # Dark 360° viewer styles, animations, and glassmorphism
-    ├── types/
-    │   └── index.ts           # TypeScript interfaces for monuments, scenes, and hotspots
-    ├── context/
-    │   └── LanguageContext.tsx# Global trilingual state manager (English, Kannada, Hindi)
-    ├── data/
-    │   └── monuments.ts       # Curated trilingual catalog of all four heritage sites
-    ├── components/
-    │   ├── Header.tsx         # Sticky museum navigation bar with language switcher
-    │   ├── Hero.tsx           # Cinematic architectural hero with statistics
-    │   ├── HeritageCard.tsx   # Monument destination cards with interactive hover effects
-    │   ├── HeritageGrid.tsx   # Responsive grid of four sovereign sanctuaries
-    │   ├── AboutSection.tsx   # Three pillars: Archiving, Telemetry, and Trilingual Education
-    │   ├── Footer.tsx         # Academic attribution and quick navigation links
-    │   └── Viewer/            # Reusable 360° Exploration Components:
-    │       ├── ViewerHeader.tsx     # Top glassmorphic bar with monument breadcrumbs
-    │       ├── SceneSelector.tsx    # Bottom viewpoint carousel drawer
-    │       ├── HotspotMarker.tsx    # Pulsating gold architectural markers
-    │       ├── HotspotPanel.tsx     # Translucent monograph popup with tabs & audio
-    │       ├── AudioPlayer.tsx      # Docked player with scrubbable progress bar
-    │       ├── ViewerControls.tsx   # Floating HUD (Zoom, Reset, Auto-rotate, Fullscreen)
-    │       ├── LanguageSelector.tsx # Segmented EN / KN / HI control
-    │       └── LoadingIndicator.tsx # Circular compass calibration screen
-    ├── pages/
-    │   ├── Home.tsx           # Master landing page coordinator
-    │   └── ViewerModal.tsx    # Interactive 360° Exploration Design System Preview
-    ├── App.tsx                # Context provider and application root
-    └── main.tsx               # React 19 bootstrap entrypoint
+Royal-Heritage-Explorer/
+│
+├── src/
+│   ├── common/                            # Shared application foundation
+│   │   ├── components/                    # Header, Hero, HeritageGrid, AboutSection, Footer, Viewers
+│   │   ├── pages/                         # Home.tsx, ViewerModal.tsx
+│   │   ├── engines/                       # ThreeJSAdapter, PannellumAdapter
+│   │   ├── services/                      # AudioManager, AmbientSoundManager, LanguageService
+│   │   ├── context/                       # LanguageContext.tsx (Trilingual state)
+│   │   ├── styles/                        # design-tokens.css, global.css, viewer-theme.css
+│   │   ├── types/                         # Shared interfaces
+│   │   └── data/                          # Master integration registries (monuments.ts, arMonumentsConfig.ts)
+│   │
+│   ├── modules/
+│   │   ├── thrisha/                       # Thrisha: Virtual Exploration
+│   │   │   ├── ellora-virtual/            # Ellora 360° scenes, viewpoints & hotspots
+│   │   │   ├── hampi-virtual/             # Hampi 360° scenes, viewpoints & hotspots
+│   │   │   └── taj-mahal-virtual/         # Taj Mahal 360° scenes, viewpoints & hotspots
+│   │   │
+│   │   ├── suchithra/                     # Suchithra BR: Augmented Reality (AR)
+│   │   │   ├── ellora-ar/                 # Ellora 3D GLB config, lighting & prompts
+│   │   │   ├── hampi-ar/                  # Hampi 3D GLB config, lighting & prompts
+│   │   │   └── taj-mahal-ar/              # Taj Mahal 3D GLB config, lighting & prompts
+│   │   │
+│   │   └── rashmi/                        # Rashmi: Konark Subsystems
+│   │       ├── konark-virtual/            # Konark 360° scenes, viewpoints & hotspots
+│   │       └── konark-ar/                 # Konark 3D GLB config, lighting & prompts
+│   │
+│   ├── App.tsx                            # Application root
+│   └── main.tsx                           # React 19 bootstrap entry
+│
+├── public/                                # Static assets (panoramas, 3D GLB models, audio, images)
+├── package.json                           # Unified dependency manifest
+├── README.md                              # Project documentation
+└── .gitignore                             # Excludes node_modules, dist, and secrets
 ```
 
 ---

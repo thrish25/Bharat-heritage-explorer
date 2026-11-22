@@ -1,138 +1,81 @@
-# Team Structure & Contribution Register
-## Royal Heritage Explorer
+# Team Structure & Module Ownership Register
+## Royal Heritage Explorer — 3-Member Collaboration Architecture
 
 ---
 
-## 1. Team Structure & Members
+## 1. Team Structure & Branch Assignments
 
-The **Royal Heritage Explorer** project is maintained by a collaborative four-member team composed of three equal main developers and one supporting contributor:
+The **Royal Heritage Explorer** project is organized into dedicated feature modules mapped to three developers and a unified integration baseline:
 
 ```
                           ┌─────────────────────────────┐
                           │   ROYAL HERITAGE EXPLORER   │
-                          │      Integrated Platform    │
+                          │   main (Common Application) │
                           └──────────────┬──────────────┘
                                          │
                  ┌───────────────────────┼───────────────────────┐
                  │                       │                       │
       ┌──────────▼──────────┐ ┌──────────▼──────────┐ ┌──────────▼──────────┐
-      │   MAIN DEVELOPER 1  │ │   MAIN DEVELOPER 2  │ │   MAIN DEVELOPER 3  │
-      │       Thrisha       │ │      Suchithra      │ │        Rashmi       │
-      │  (Equal Dev Lead)   │ │  (Equal Dev Lead)   │ │  (Equal Dev Lead)   │
+      │       Thrisha       │ │     Suchithra BR    │ │        Rashmi       │
+      │ Virtual Exploration │ │     AR Modules      │ │    Konark Modules   │
       │   feature/thrisha   │ │  feature/suchithra  │ │   feature/rashmi    │
       └─────────────────────┘ └─────────────────────┘ └─────────────────────┘
-                 │                       │                       │
-                 └───────────────────────┼───────────────────────┘
-                                         │
-                              ┌──────────▼──────────┐
-                              │     CONTRIBUTOR     │
-                              │       Sahana        │
-                              │  (Supporting Role)  │
-                              │   feature/sahana    │
-                              └─────────────────────┘
 ```
 
-| Member | Project Role | Dedicated Feature Branch | Responsibility Scope |
+| Member | Branch | Area of Responsibility | Assigned Module Directories |
 |---|---|---|---|
-| **Thrisha** | Main Developer (1/3) | `feature/thrisha` | Full project scope (Equal development) |
-| **Suchithra** | Main Developer (2/3) | `feature/suchithra` | Full project scope (Equal development) |
-| **Rashmi** | Main Developer (3/3) | `feature/rashmi` | Full project scope (Equal development) |
-| **Sahana** | Additional Contributor | `feature/sahana` | Supporting role (Testing, docs, UI, fixes) |
+| **Thrisha** | `feature/thrisha` | **Virtual Exploration Lead**<br>• Ellora Caves Virtual Tour<br>• Hampi Virtual Tour<br>• Taj Mahal Virtual Tour | `src/modules/virtual-exploration/ellora/`<br>`src/modules/virtual-exploration/hampi/`<br>`src/modules/virtual-exploration/taj-mahal/` |
+| **Suchithra BR** | `feature/suchithra` | **Augmented Reality (AR) Lead**<br>• Ellora Caves AR Module<br>• Hampi AR Module<br>• Taj Mahal AR Module | `src/modules/ar/ellora/`<br>`src/modules/ar/hampi/`<br>`src/modules/ar/taj-mahal/` |
+| **Rashmi** | `feature/rashmi` | **Konark Subsystem Lead**<br>• Konark Virtual Tour<br>• Konark AR Module | `src/modules/virtual-exploration/konark/`<br>`src/modules/ar/konark/` |
+| **Common Baseline** | `main` | **Master Platform Integration**<br>• Homepage & Layout<br>• Shared 360 & AR Viewer Engines<br>• Common Styling, Context & Routing | `src/pages/`, `src/components/`,<br>`src/engines/`, `src/services/`,<br>`src/data/monuments.ts`, `src/data/ar/` |
 
 ---
 
-## 2. Core Responsibilities
+## 2. Detailed Ownership Breakdown
 
-### Main Developers (Thrisha, Suchithra, Rashmi)
-All three main developers share **equal, end-to-end development responsibility** for the complete platform, including:
+### 1. Thrisha — Virtual Exploration (Ellora, Hampi, Taj Mahal)
+- **Code Ownership:**
+  - `src/modules/virtual-exploration/ellora/` (Scenes, viewpoints, 22 hotspots, Cave 10 & 16)
+  - `src/modules/virtual-exploration/hampi/` (Scenes, viewpoints, 20 hotspots, Stone Chariot)
+  - `src/modules/virtual-exploration/taj-mahal/` (Scenes, viewpoints, 28 hotspots, Charbagh & Iwan)
+- **Asset Responsibilities:**
+  - Panoramas and audio narration in `public/assets/monuments/{ellora,hampi,taj-mahal}/`
 
-1. **Virtual Exploration & 360° Panorama Viewer:**
-   - Enhancing spherical canvas rendering, field-of-view (FOV) transitions, and camera movement.
-   - Managing interactive navigational and informational hotspots across monument scenes.
-2. **Augmented Reality (AR) & 3D Visualizations:**
-   - AR model view integration, canvas interaction, lighting, and WebXR DOM overlays.
-   - 3D asset inspection and spatial rendering controls.
-3. **Heritage Site Modules & Architectural Integration:**
-   - Supporting all four historic complexes: **Ellora Caves**, **Hampi**, **Konark Sun Temple**, and **Taj Mahal**.
-   - Coordinating trilingual documentation and architectural data catalogs.
-4. **Audio Narration & Multilingual Systems:**
-   - Synchronizing audio playback, narration triggers, and volume/subtitles controls.
-   - Preserving accurate English, Kannada (`kn`), and Hindi (`hi`) localization.
-5. **UI/UX Engineering & Responsive Layouts:**
-   - Museum-grade editorial design standards (warm ivory, sandstone, antique gold, deep charcoal).
-   - Desktop, tablet, and mobile responsiveness.
-6. **Testing, Bug Fixing & Code Quality:**
-   - Cross-browser testing, performance optimization, and rigorous regression prevention.
+### 2. Suchithra BR — AR Modules (Ellora, Hampi, Taj Mahal)
+- **Code Ownership:**
+  - `src/modules/ar/ellora/` (3D camera orbits, FOV, lighting, suggested questions)
+  - `src/modules/ar/hampi/` (3D camera orbits, FOV, lighting, suggested questions)
+  - `src/modules/ar/taj-mahal/` (3D camera orbits, FOV, lighting, suggested questions)
+- **Asset Responsibilities:**
+  - 3D models (`/assets/models/{ellora-caves,hampi-stone-chariot,taj-mahal}.glb`)
+  - AR audio narration (`/assets/audio/ar/{ellora,hampi,taj}_*`)
 
-### Additional Contributor (Sahana)
-Sahana provides focused **supporting contributions**:
-1. **Quality Assurance & Verification:** Cross-device testing (screen sizes, mobile browser compatibility, audio playback verification).
-2. **Documentation & User Guides:** Maintaining documentation, guides, setup instructions, and issue reports.
-3. **Targeted UI Enhancements:** Minor styling refinements, accessibility improvements, and readability adjustments.
-4. **Bug Fixing & Issue Triage:** Assisting with validated bug fixes and verification of resolved issues.
+### 3. Rashmi — Konark Modules (Virtual Exploration & AR)
+- **Code Ownership:**
+  - `src/modules/virtual-exploration/konark/` (Scenes, viewpoints, 18 hotspots, Simhadwara & Jagamohana)
+  - `src/modules/ar/konark/` (3D camera orbits, sundial model configuration, questions)
+- **Asset Responsibilities:**
+  - Konark panoramas & 360 audio in `public/assets/monuments/konark/`
+  - Konark 3D model (`/assets/models/konark-sun-temple.glb`)
+  - Konark AR narration audio (`/assets/audio/ar/konark_*`)
 
----
-
-## 3. Principles of Equal Collaboration
-
-To ensure a cohesive and balanced academic/engineering team:
-
-- **No Monument Silos:** No single developer is assigned permanent "ownership" of Ellora, Hampi, Konark, or Taj Mahal. All three main developers contribute across all four sites.
-- **No Technology Silos:** No single developer exclusively owns AR or exclusively owns the 360° viewer. All three main developers participate in both virtual exploration and AR subsystems.
-- **Shared Architecture Decisions:** Structural changes to data models (`monuments.ts`), API endpoints, or routing are discussed and agreed upon prior to implementation.
-- **Mutual Code Reviews:** Pull Requests are reviewed and verified by peers before being merged into `main`.
+### 4. Main Branch — Common Application Core
+- **Application Entry & Routing:** `index.html`, `src/main.tsx`, `src/App.tsx`, `src/pages/Home.tsx`
+- **Shared Components:** `Header.tsx`, `Hero.tsx`, `HeritageGrid.tsx`, `HeritageCard.tsx`, `AboutSection.tsx`, `Footer.tsx`, `GalleryModal.tsx`, `Ornaments.tsx`
+- **Shared 360 Viewer Framework:** `src/pages/ViewerModal.tsx`, `src/components/Viewer/*`, `src/engines/*`, `src/services/*`
+- **Shared AR Viewer Framework:** `src/components/AR/*` (`ARViewerModal`, `ARModelViewer`, `ARAudioNarrationBar`, `ARAssistantDrawer`)
+- **Shared Styling & Tokens:** `src/styles/*` (`design-tokens.css`, `global.css`, `viewer-theme.css`)
+- **Master Registries:** `src/data/monuments.ts` and `src/data/ar/arMonumentsConfig.ts` (aggregating each member's modules)
 
 ---
 
-## 4. How Individual Contributions Are Recorded & Tracked
+## 3. Contribution Verification & Tracking
 
-Transparency and academic integrity are foundational to this project. **Contributions must be genuine, verifiable, and tied directly to the author who implemented them.**
-
-### 1. Git Author Identity
-Each member must configure their Git client with their genuine name and GitHub email before committing:
-```bash
-git config user.name "Thrisha"
-git config user.email "thrisha@example.com"
-```
-```bash
-git config user.name "Suchithra"
-git config user.email "suchithra@example.com"
-```
-```bash
-git config user.name "Rashmi"
-git config user.email "rashmi@example.com"
-```
-```bash
-git config user.name "Sahana"
-git config user.email "sahana@example.com"
-```
-
-### 2. Individual Feature Branches
-Every member works strictly within their own branch (`feature/<name>`) and pushes their changes to GitHub under their branch.
-
-### 3. Pull Request History & Reviews
-Every merged change must have an associated GitHub Pull Request clearly showing:
-- The author who created the PR.
-- The exact files and lines modified.
-- The peer reviewer(s) who tested and approved the PR.
-- The verification steps passed prior to merging into `main`.
-
-### 4. GitHub Insights & Commit Log
-GitHub's built-in **Insights $\rightarrow$ Contributors** tab and the Git commit history (`git log --pretty=format:"%h - %an: %s"`) serve as the objective, tamper-proof record of every team member's genuine code, documentation, and testing contributions.
-
-> [!CAUTION]
-> **No Fabricated Contributions Policy:**
-> Under no circumstances should fabricated, artificial, or ghost commits be generated. Every recorded commit, PR, and review must represent real engineering or documentation work.
-
----
-
-## 5. Branch Naming Conventions
-
-All branches follow standard naming conventions:
-
-- `main` — Production release branch. Stable, reviewed, and fully functional.
-- `feature/thrisha` — Active feature/improvement branch for Thrisha.
-- `feature/suchithra` — Active feature/improvement branch for Suchithra.
-- `feature/rashmi` — Active feature/improvement branch for Rashmi.
-- `feature/sahana` — Active supporting contribution branch for Sahana.
-- Optional temporary task branches: `feature/<name>-<task-description>` (e.g., `feature/thrisha-hampi-audio-fix`).
+- Each developer commits only within their dedicated branch (`feature/thrisha`, `feature/suchithra`, `feature/rashmi`).
+- All code additions must be reviewed through Pull Requests before merging into `main`.
+- Contributions are transparently tracked via Git author logs and GitHub Insights:
+  ```bash
+  git log --author="Thrisha" --oneline
+  git log --author="Suchithra" --oneline
+  git log --author="Rashmi" --oneline
+  ```
