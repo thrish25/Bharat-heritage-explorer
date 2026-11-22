@@ -6,6 +6,7 @@ export const HAMPI_AR_CONFIG: ARMonumentConfig = {
   audioPrefix: 'hampi',
   subtitleKey: 'hampi',
   modelSrc: '/assets/models/hampi-stone-chariot.glb',
+  posterSrc: '/assets/images/ar/hampi-ar-poster.webp',
   name: {
     en: 'Hampi Stone Chariot',
     kn: 'ಹಂಪಿ ಕಲ್ಲಿನ ರಥ',

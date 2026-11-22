@@ -260,6 +260,7 @@ export const ARModelViewer = forwardRef<ARModelViewerHandle, ARModelViewerProps>
         ref={modelViewerRef}
         id="arMonumentViewer"
         src={config.modelSrc}
+        poster={config.posterSrc || undefined}
         alt={config.altText}
         ar
         ar-modes="webxr scene-viewer quick-look"
@@ -348,7 +349,7 @@ export const ARModelViewer = forwardRef<ARModelViewerHandle, ARModelViewerProps>
 
         {/* Loading Progress State */}
         {isLoading && (
-          <div className="absolute inset-0 z-40 bg-[#121416]/85 backdrop-blur-sm flex flex-col items-center justify-center p-6 text-center pointer-events-auto">
+          <div className="absolute inset-0 z-40 bg-[#121416]/40 backdrop-blur-[1px] flex flex-col items-center justify-center p-6 text-center pointer-events-auto">
             <div className="w-14 h-14 rounded-full border-2 border-[rgba(198,161,91,0.2)] border-t-[#C6A15B] animate-spin mb-4" />
             <div className="font-cinzel text-base font-bold text-[#E0C27B] tracking-wider mb-2">
               Loading 3D Monument Model
