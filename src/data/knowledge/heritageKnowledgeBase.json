@@ -1,0 +1,705 @@
+{
+  "hampi": {
+    "monumentId": "hampi",
+    "name": "Hampi (Vijaya Vittala Temple Complex & Stone Chariot)",
+    "passages": [
+      {
+        "id": "hampi-hist-01",
+        "category": "Monument History",
+        "title": "Foundation and Royal Patronage of Vijaya Vittala Complex",
+        "content": "The Vijaya Vittala Temple is dedicated to Vittala, an aspect of Lord Vishnu worshipped in the Deccan. Endowments date predominantly from the reign of Emperor Krishnadevaraya (1509–1529 CE) of the Tuluva Dynasty, who celebrated his military victories over the Gajapatis of Odisha by making grand gifts to the temple, as recorded in inscriptions of 1513 and 1516 CE. His queens Chinnadevi and Tirumaladevi also donated heavily. Later additions were made under Achyuta Deva Raya (1529–1542 CE) and Sadasiva Raya under regent Aliya Rama Raya.",
+        "references": [
+          {
+            "title": "Epigraphia Indica Vol. I & IV",
+            "source": "Archaeological Survey of India",
+            "year": "1892"
+          },
+          {
+            "title": "New Light on Hampi: Recent Research at Vijayanagara",
+            "source": "Fritz, J. M. and Michell, G.",
+            "year": "2001"
+          }
+        ],
+        "keywords": [
+          "krishnadevaraya",
+          "vittala",
+          "foundation",
+          "tuluva",
+          "endowment",
+          "inscriptions",
+          "history",
+          "patronage",
+          "1513",
+          "1516",
+          "origins",
+          "built",
+          "who",
+          "king"
+        ]
+      },
+      {
+        "id": "hampi-arch-01",
+        "category": "Architectural Characteristics",
+        "title": "The Stone Chariot (Garuda Shrine) Architecture",
+        "content": "The famous Stone Chariot at Hampi is actually a ratha-vimana (processional chariot shrine) dedicated to Garuda, the divine eagle mount of Vishnu, positioned directly on the east-west axial line facing the main sanctum. Built of finely dressed interlocking chloritic granite blocks, the chariot features four circular stone wheels with lotus petal bosses and simulated wooden axles. In the 16th century, the flat roof slab was crowned by a two-tiered stepped pyramidal brick-and-mortar Dravidian vimana (superstructure), as documented in Alexander Greenlaw's 1856 calotype photograph before it collapsed or was removed in the late 19th century.",
+        "references": [
+          {
+            "title": "Alexander Greenlaw 1856 Calotype Collection",
+            "source": "Victoria and Albert Museum / Alkazi Collection",
+            "year": "1856"
+          },
+          {
+            "title": "Hampi: The Vijayanagara Empire Archaeological Guide",
+            "source": "Archaeological Survey of India",
+            "year": "2008"
+          }
+        ],
+        "keywords": [
+          "stone chariot",
+          "garuda",
+          "ratha",
+          "wheels",
+          "vimana",
+          "brick",
+          "granite",
+          "greenlaw",
+          "architecture",
+          "superstructure",
+          "design",
+          "chariot"
+        ]
+      },
+      {
+        "id": "hampi-arch-02",
+        "category": "Architectural Characteristics",
+        "title": "The Maha-Mandapa and Musical Pillars",
+        "content": "The Maha-Mandapa (Ranga Mandapa) of the Vittala temple is celebrated for its 56 monolithic composite granite pillars. Each primary load-bearing column is surrounded by slender cluster colonnettes sculpted from single blocks of resonant granite. When struck gently, these colonnettes produce distinct musical frequencies corresponding to ancient Indian musical scale notes (swaras), functioning as an architectural acoustic marvel designed for courtly dance and ritual performance.",
+        "references": [
+          {
+            "title": "Acoustic Characterization of Resonant Granite Columns at Hampi",
+            "source": "Journal of Acoustical Society of India",
+            "year": "2005"
+          },
+          {
+            "title": "Vijayanagara: Courtly Architecture and Temple Complexes",
+            "source": "Michell, George",
+            "year": "1995"
+          }
+        ],
+        "keywords": [
+          "musical pillars",
+          "maha mandapa",
+          "ranga mandapa",
+          "acoustics",
+          "columns",
+          "granite",
+          "swaras",
+          "monolithic",
+          "music",
+          "sound"
+        ]
+      },
+      {
+        "id": "hampi-sculp-01",
+        "category": "Sculptures and Iconography",
+        "title": "Mythological Reliefs and Guardian Sculptures",
+        "content": "The plinth (adhisthana) of the Stone Chariot and mandapas features continuous friezes depicting battle elephants, cavalry with foreign Persian horse traders, and celestial dancers. The entrance steps of the chariot are flanked by two sculpted stone elephants, which archival surveys by Longhurst (1917) and 1856 calotypes demonstrate were installed in later conservation, while the original balustrades bore relief carvings of galloping horses pulling the chariot.",
+        "references": [
+          {
+            "title": "Hampi Ruins Described and Illustrated",
+            "source": "Longhurst, A.H., Archaeological Survey of India",
+            "year": "1917"
+          },
+          {
+            "title": "Dr. Neill 1856 Photographic Survey",
+            "source": "Royal Collection Trust (RCIN 2603956)",
+            "year": "1856"
+          }
+        ],
+        "keywords": [
+          "sculptures",
+          "elephants",
+          "horses",
+          "plinth",
+          "reliefs",
+          "friezes",
+          "iconography",
+          "longhurst",
+          "balustrade",
+          "carvings",
+          "trunks"
+        ]
+      },
+      {
+        "id": "hampi-damg-01",
+        "category": "Historical Changes and Damage",
+        "title": "The 1565 Battle of Talikota and City Abandonment",
+        "content": "In January 1565 CE, the combined forces of the Deccan Sultanates defeated the Vijayanagara army at the Battle of Rakshasi-Tangadi (Talikota). Following the defeat, the imperial capital was sacked and systematically vandalized over a six-month period. Fire, quarrying, and hammer blows fractured the upper superstructures, mandapa ceilings, and sanctuary images across the Sacred Centre, leading to the permanent abandonment of the grand imperial city.",
+        "references": [
+          {
+            "title": "A Forgotten Empire: Vijayanagar",
+            "source": "Sewell, Robert",
+            "year": "1900"
+          },
+          {
+            "title": "A History of South India",
+            "source": "Nilakanta Sastri, K.A.",
+            "year": "1955"
+          }
+        ],
+        "keywords": [
+          "talikota",
+          "1565",
+          "destruction",
+          "abandonment",
+          "sack",
+          "deccan sultanates",
+          "damage",
+          "fire",
+          "rakshasi-tangadi",
+          "collapse",
+          "ruin"
+        ]
+      },
+      {
+        "id": "hampi-cons-01",
+        "category": "Conservation and Restoration",
+        "title": "ASI Conservation and UNESCO Inscription",
+        "content": "Hampi was declared a UNESCO World Heritage Site in 1986 under criteria (i), (iii), and (iv). The Archaeological Survey of India (ASI) Hampi Circle carries out regular scientific preservation, including dry-stone ashlar stitching, protective chain cordons around the fragile Stone Chariot wheels, drainage management to prevent water-logging around the plinth, and non-invasive laser cleaning of lichen and stone weathering.",
+        "references": [
+          {
+            "title": "UNESCO World Heritage Nomination Dossier No. 241",
+            "source": "UNESCO World Heritage Centre",
+            "year": "1986"
+          },
+          {
+            "title": "ASI Comprehensive Conservation Management Plan for Hampi",
+            "source": "Archaeological Survey of India",
+            "year": "2012"
+          }
+        ],
+        "keywords": [
+          "unesco",
+          "conservation",
+          "asi",
+          "restoration",
+          "world heritage",
+          "preservation",
+          "scientific",
+          "modern",
+          "protection"
+        ]
+      }
+    ]
+  },
+  "taj-mahal": {
+    "monumentId": "taj-mahal",
+    "name": "Taj Mahal (Agra, Uttar Pradesh)",
+    "passages": [
+      {
+        "id": "taj-hist-01",
+        "category": "Monument History",
+        "title": "Commissioning by Emperor Shah Jahan for Mumtaz Mahal",
+        "content": "The Taj Mahal was commissioned in 1631 CE by the fifth Mughal Emperor Shah Jahan to enshrine the tomb of his beloved empress consort, Arjumand Banu Begum, known as Mumtaz Mahal ('Chosen One of the Palace'), who died during childbirth in Burhanpur on June 17, 1631. Construction began in 1632 CE and the central mausoleum was completed in 1648 CE, with the surrounding gardens, mosque, jawab (guest house), and monumental gateway (Darwaza-i Rauza) finished by 1653 CE at an estimated cost of 32 million imperial rupees.",
+        "references": [
+          {
+            "title": "Padshahnama (Official Imperial Chronicle)",
+            "source": "Abdul Hamid Lahori",
+            "year": "c. 1650"
+          },
+          {
+            "title": "The Complete Taj Mahal and the Riverfront Gardens of Agra",
+            "source": "Koch, Ebba",
+            "year": "2006"
+          }
+        ],
+        "keywords": [
+          "shah jahan",
+          "mumtaz mahal",
+          "commission",
+          "1631",
+          "1632",
+          "1648",
+          "padshahnama",
+          "history",
+          "mausoleum",
+          "agra",
+          "why",
+          "built",
+          "queen",
+          "tomb"
+        ]
+      },
+      {
+        "id": "taj-arch-01",
+        "category": "Architectural Characteristics",
+        "title": "Bilateral Symmetry, Double Dome, and Minarets",
+        "content": "The Taj Mahal exemplifies the climax of Mughal classical architecture. It is built on a strict bilateral symmetry along a central north-south axis. The main structure features a central double dome: an inner ceiling dome that provides balanced acoustic and visual intimacy inside the chamber, and an outer bulbous onion dome rising to 73 meters (240 ft) surmounted by a gilded brass finial. The four freestanding minarets at the corners of the plinth stand 40 meters tall and were deliberately canted slightly outward (approximately 1 to 2 degrees) to prevent them from crashing into the mausoleum in case of an earthquake.",
+        "references": [
+          {
+            "title": "Mughal Architecture: An Outline of Its History and Development",
+            "source": "Koch, Ebba",
+            "year": "2002"
+          },
+          {
+            "title": "Architecture of Mughal India (The New Cambridge History of India)",
+            "source": "Asher, Catherine B.",
+            "year": "1992"
+          }
+        ],
+        "keywords": [
+          "double dome",
+          "symmetry",
+          "minarets",
+          "canted",
+          "seismic",
+          "onion dome",
+          "architecture",
+          "finial",
+          "73 meters",
+          "earthquake",
+          "pillars"
+        ]
+      },
+      {
+        "id": "taj-arch-02",
+        "category": "Construction Techniques",
+        "title": "Makrana White Marble and Pietra Dura (Parchin Kari)",
+        "content": "The core masonry of the Taj Mahal is composed of kiln-burnt brick bonded with lime mortar, faced entirely with pure white crystalline marble quarried from Makrana in Rajasthan, transported 400 km via bullock carts and river barges. The surfaces are embellished with intricate Pietra Dura (known locally as Parchin Kari)—a hard-stone inlay technique where semi-precious stones (lapis lazuli, jasper, jade, carnelian, malachite, turquoise, and coral) are meticulously cut and embedded into precision-chiseled marble recesses to create floral arabesques and geometric tracery.",
+        "references": [
+          {
+            "title": "Pietra Dura and Stone Inlay in Mughal Monumental Art",
+            "source": "Nath, R.",
+            "year": "1970"
+          },
+          {
+            "title": "The Riverfront Garden City of Agra",
+            "source": "Archaeological Survey of India",
+            "year": "2015"
+          }
+        ],
+        "keywords": [
+          "makrana marble",
+          "pietra dura",
+          "parchin kari",
+          "inlay",
+          "jasper",
+          "lapis lazuli",
+          "construction",
+          "materials",
+          "gems",
+          "flowers",
+          "gemstones"
+        ]
+      },
+      {
+        "id": "taj-sculp-01",
+        "category": "Sculptures and Iconography",
+        "title": "Master Calligraphy by Amanat Khan and Sacred Geometry",
+        "content": "The calligraphy framing the grand vaulted portal arches (iwans) and the cenotaphs was designed by the royal calligrapher Abd ul-Haq, titled 'Amanat Khan Shirazi'. The inscriptions are verses from the Holy Quran, written in elegant Thuluth script using black marble inlaid into white marble. Amanat Khan engineered optical corrections: the script gradually expands in size towards the upper reaches of the high arches so that it appears uniform and legible to a viewer standing on the ground.",
+        "references": [
+          {
+            "title": "The Inscriptions of the Taj Mahal with Their Quranic References",
+            "source": "Begley, Wayne E.",
+            "year": "1979"
+          },
+          {
+            "title": "Amanat Khan and the Calligraphy of the Taj Mahal",
+            "source": "Arts & the Islamic World",
+            "year": "1983"
+          }
+        ],
+        "keywords": [
+          "calligraphy",
+          "amanat khan",
+          "thuluth",
+          "quranic",
+          "inscriptions",
+          "optical illusion",
+          "pishtaq",
+          "iwan",
+          "arches",
+          "letters"
+        ]
+      },
+      {
+        "id": "taj-cons-01",
+        "category": "Conservation and Restoration",
+        "title": "Taj Trapezium Zone, Mud Pack Treatments, and ASI Stewardship",
+        "content": "The Taj Mahal was inscribed on the UNESCO World Heritage List in 1983. Because atmospheric sulfur dioxide from surrounding industries caused marble discoloration ('marble cancer'), the Indian Supreme Court established the Taj Trapezium Zone (TTZ) in 1996, spanning 10,400 sq km to eliminate polluting coal industries. The ASI regularly applies Fuller's Earth ('Multani Mitti') clay mud packs to absorb atmospheric pollutants and restore the white luster of the marble without abrasive chemical erosion.",
+        "references": [
+          {
+            "title": "Supreme Court of India Ruling on M.C. Mehta vs. Union of India (Taj Trapezium Case)",
+            "source": "Supreme Court Reports",
+            "year": "1996"
+          },
+          {
+            "title": "Scientific Conservation of the Taj Mahal",
+            "source": "Archaeological Survey of India Science Branch",
+            "year": "2018"
+          }
+        ],
+        "keywords": [
+          "conservation",
+          "unesco",
+          "taj trapezium zone",
+          "multani mitti",
+          "mud pack",
+          "pollution",
+          "asi",
+          "marble cancer",
+          "cleaning",
+          "yellowing"
+        ]
+      }
+    ]
+  },
+  "ellora": {
+    "monumentId": "ellora",
+    "name": "Ellora Caves (Cave 10 Vishwakarma & Cave 16 Kailasa Temple)",
+    "passages": [
+      {
+        "id": "ellora-hist-01",
+        "category": "Monument History",
+        "title": "Rashtrakuta Dynasty and Cave 16 Kailasa Temple Excavation",
+        "content": "Cave 16, known as the Kailasa Temple, was commissioned during the 8th century CE under the Rashtrakuta Dynasty, primarily initiated by King Krishna I (c. 756–774 CE) as evidenced by the Baroda copper-plate grant of Karka II (812 CE), which records the royal architect's sheer astonishment: 'When the gods saw this celestial abode, they wondered: Was this really made by humans or did it manifest of its own accord?'. The temple was dedicated to Lord Shiva as the cosmic abode Mount Kailash.",
+        "references": [
+          {
+            "title": "Baroda Copper Plate Grant of Rashtrakuta Karka II",
+            "source": "Epigraphia Indica Vol. XII",
+            "year": "1914"
+          },
+          {
+            "title": "Kailasa at Ellora: A Monolithic Masterpiece",
+            "source": "Dhavalikar, M.K.",
+            "year": "2003"
+          }
+        ],
+        "keywords": [
+          "kailasa",
+          "cave 16",
+          "krishna i",
+          "rashtrakuta",
+          "baroda copper plate",
+          "8th century",
+          "history",
+          "monolith",
+          "shiva",
+          "built",
+          "who",
+          "king"
+        ]
+      },
+      {
+        "id": "ellora-arch-01",
+        "category": "Architectural Characteristics",
+        "title": "Top-Down Monolithic Trench Excavation Technique",
+        "content": "Unlike conventional temples built from the ground up using stone blocks, the Kailasa Temple was carved entirely out of a single living basalt rock cliff using a revolutionary top-down excavation method. Master stonemasons cut two deep parallel trenches measuring over 90 meters long and 30 meters deep into the basalt hill, isolating a colossal central stone block. Sculptors then chiseled downward from the roof shikharas, mandapa domes, and balconies down to the plinth and floor flagstones, removing over 200,000 tonnes of basalt rock without scaffolding, joints, or mortar.",
+        "references": [
+          {
+            "title": "Indian Architecture: Buddhist and Hindu Periods",
+            "source": "Brown, Percy",
+            "year": "1942"
+          },
+          {
+            "title": "The Art and Architecture of the Indian Subcontinent",
+            "source": "Harle, J.C.",
+            "year": "1986"
+          }
+        ],
+        "keywords": [
+          "top-down",
+          "monolith",
+          "basalt",
+          "quarrying",
+          "trench",
+          "excavation",
+          "kailasa",
+          "construction",
+          "engineering",
+          "technique",
+          "carving"
+        ]
+      },
+      {
+        "id": "ellora-arch-02",
+        "category": "Architectural Characteristics",
+        "title": "Cave 10 (Vishwakarma) Carpenter's Cave and Chaitya Arch",
+        "content": "Cave 10, dated to c. 650 CE, is the only Chaitya-griha (prayer sanctuary) among Ellora's Buddhist group. Popularly named 'Vishwakarma' (the divine craftsman) by local stonemasons, its barrel-vaulted ceiling features stone ribs carved to imitate wooden timber carpentry rafters. At the apsidal end stands a colossal 3.3-meter high Buddha seated in Pralambapadasana (bhadrasana / European posture) with hands in Dharmachakra Pravartana mudra, set against the front of a rock-cut votive stupa.",
+        "references": [
+          {
+            "title": "Buddhist Cave Temples of India",
+            "source": "Fergusson, James and Burgess, James",
+            "year": "1880"
+          },
+          {
+            "title": "Ellora: Concept and Style",
+            "source": "Parimoo, Ratan et al.",
+            "year": "1988"
+          }
+        ],
+        "keywords": [
+          "cave 10",
+          "vishwakarma",
+          "chaitya",
+          "buddha",
+          "stupa",
+          "timber ribs",
+          "bhadrasana",
+          "dharmachakra",
+          "buddhist",
+          "wood",
+          "carpenter"
+        ]
+      },
+      {
+        "id": "ellora-sculp-01",
+        "category": "Sculptures and Iconography",
+        "title": "The Great Elephant Frieze and Ravana Shaking Mount Kailash",
+        "content": "The lower plinth of Cave 16 is supported by a colossal high-relief frieze of life-sized elephants, lions, and mythical vyalas that visually hoist the entire cosmic temple aloft on their backs. On the south wall of the main vimana plinth is the celebrated dramatic tableau of 'Ravananugraha-murti' (Ravana shaking Mount Kailash), where the ten-headed demon king strains with all twenty arms beneath the mountain while Lord Shiva effortlessly calms the shaking earth by pressing down his big toe, comforting Parvati.",
+        "references": [
+          {
+            "title": "The Ellora Caves: Sculptural Art and Architecture",
+            "source": "Gupte, R.S. and Mahajan, B.D.",
+            "year": "1962"
+          },
+          {
+            "title": "Classical Indian Sculpture",
+            "source": "Kramrisch, Stella",
+            "year": "1933"
+          }
+        ],
+        "keywords": [
+          "elephant frieze",
+          "ravananugraha",
+          "ravana",
+          "sculptures",
+          "shiva",
+          "parvati",
+          "vyala",
+          "plinth",
+          "iconography",
+          "toe",
+          "mythology"
+        ]
+      },
+      {
+        "id": "ellora-arch-03",
+        "category": "Architectural Characteristics",
+        "title": "Historical White Plaster (Sudha-Lepana) Coating",
+        "content": "In its original 8th-century Rashtrakuta state and subsequent Yadava renovation periods, the entire dark basalt exterior of the Kailasa Temple was coated in a fine layer of white shell-lime plaster (sudha-lepana) with painted pigment accents. This brilliant white finish was intended to evoke the snowy, glacier-capped peak of Mount Kailash in the Himalayas. Portions of this white plaster coating still survive in protected crevices, eaves, and niche mouldings.",
+        "references": [
+          {
+            "title": "Plaster and Pigment Analysis at Ellora Caves",
+            "source": "Archaeological Survey of India Chemistry Branch",
+            "year": "1998"
+          },
+          {
+            "title": "Ellora: Monuments and Art",
+            "source": "Archaeological Survey of India",
+            "year": "2004"
+          }
+        ],
+        "keywords": [
+          "white plaster",
+          "sudha-lepana",
+          "mount kailash",
+          "snow",
+          "lime",
+          "basalt",
+          "reconstruction",
+          "yadava",
+          "plaster",
+          "white"
+        ]
+      },
+      {
+        "id": "ellora-cons-01",
+        "category": "Conservation and Restoration",
+        "title": "UNESCO Inscription and Structural Basalt Preservation",
+        "content": "Ellora Caves was inscribed as a UNESCO World Heritage Site in 1983 (Ref: 243). The ASI Aurangabad Circle actively preserves the basalt rock faces against water infiltration, thermal stress fractures, and vegetation roots. Specialized drainage channels divert monsoon rainwater off the cliff summits to protect the delicate relief carvings from erosion.",
+        "references": [
+          {
+            "title": "UNESCO World Heritage Citation: Ellora Caves (Ref: 243)",
+            "source": "UNESCO World Heritage Centre",
+            "year": "1983"
+          },
+          {
+            "title": "ASI Conservation Manual: Rock-Cut Monuments of Maharashtra",
+            "source": "Archaeological Survey of India",
+            "year": "2016"
+          }
+        ],
+        "keywords": [
+          "unesco",
+          "conservation",
+          "asi",
+          "drainage",
+          "basalt",
+          "preservation",
+          "water infiltration",
+          "maintenance"
+        ]
+      }
+    ]
+  },
+  "konark": {
+    "monumentId": "konark",
+    "name": "Konark Sun Temple (Surya Deula, Odisha)",
+    "passages": [
+      {
+        "id": "konark-hist-01",
+        "category": "Monument History",
+        "title": "Reign of King Narasimhadeva I and Eastern Ganga Dynasty",
+        "content": "The Sun Temple at Konark was conceived and built around 1250 CE during the reign of King Narasimhadeva I (1238–1264 CE) of the Eastern Ganga Dynasty. It was dedicated to the Vedic solar deity Surya. The monumental enterprise employed 1,200 master artisans under the chief architect Bisu Maharana (or Bishu Maharana) over a twelve-year period, consuming twelve years of royal revenue from the Kalinga kingdom.",
+        "references": [
+          {
+            "title": "Baya Chakada (Temple Construction Palm-leaf Chronicle)",
+            "source": "Boner, Alice, Sarma, S.R., and Das, R.P.",
+            "year": "1972"
+          },
+          {
+            "title": "Konarak: The Sun Temple of Love",
+            "source": "Archaeological Survey of India",
+            "year": "1996"
+          }
+        ],
+        "keywords": [
+          "narasimhadeva i",
+          "eastern ganga",
+          "1250 ce",
+          "surya",
+          "bisu maharana",
+          "history",
+          "kalinga",
+          "baya chakada",
+          "built",
+          "who",
+          "king",
+          "origins"
+        ]
+      },
+      {
+        "id": "konark-arch-01",
+        "category": "Architectural Characteristics",
+        "title": "The Colossal Cosmic Chariot, 24 Wheels, and 7 Horses",
+        "content": "The entire temple complex is designed in the shape of a colossal cosmic chariot of Surya, mounted on 24 intricately sculpted stone wheels (each nearly 10 feet in diameter) and pulled by seven galloping stone horses representing the days of the week and the seven colors of sunlight. The 24 wheels symbolize the 24 fortnights (pakshas) of the Hindu solar year, and their spokes serve as precise sundials: by observing the shadow cast on the central hub and spokes, one can determine the exact local solar time down to the minute.",
+        "references": [
+          {
+            "title": "New Light on the Sun Temple of Konarka",
+            "source": "Boner, Alice",
+            "year": "1972"
+          },
+          {
+            "title": "Astronomical Significance of the Konark Sundials",
+            "source": "Indian Journal of History of Science",
+            "year": "2008"
+          }
+        ],
+        "keywords": [
+          "cosmic chariot",
+          "24 wheels",
+          "7 horses",
+          "sundial",
+          "surya deula",
+          "astronomy",
+          "timekeeping",
+          "architecture",
+          "wheels",
+          "horses",
+          "time"
+        ]
+      },
+      {
+        "id": "konark-arch-02",
+        "category": "Architectural Characteristics",
+        "title": "Kalinga Architecture: Deula, Jagamohana, and Natamandira",
+        "content": "The Konark complex is built in classical Kalinga architectural style, comprising three main axial structures: the detached Natamandira (Hall of Dance) on the east, the surviving tiered pyramidal Jagamohana (Hall of Congregation / Pidha Deula), and the once-colossal main Vimana (Rekha Deula sanctum) that originally soared over 68 meters (225 ft) before collapsing in the 16th to 19th centuries due to sandy foundation subsidence, heavy iron beam corrosion, and historical storms.",
+        "references": [
+          {
+            "title": "The Antiquities of Orissa",
+            "source": "Mitra, Rajendralala",
+            "year": "1875"
+          },
+          {
+            "title": "Architecture of the Sun Temple, Konarak",
+            "source": "Archaeological Survey of India",
+            "year": "2003"
+          }
+        ],
+        "keywords": [
+          "kalinga architecture",
+          "jagamohana",
+          "natamandira",
+          "vimana",
+          "rekha deula",
+          "pidha deula",
+          "collapse",
+          "68 meters",
+          "shikhara",
+          "destruction"
+        ]
+      },
+      {
+        "id": "konark-sculp-01",
+        "category": "Sculptures and Iconography",
+        "title": "Green Chlorite Surya Statues and Musical Maidens (Alasa Kanyas)",
+        "content": "The temple exterior is carved from Khondalite stone, while the three sacred images of Surya (facing south, west, and north to catch the morning, midday, and setting sun) are sculpted from exquisite, dark-green fine-grained Chlorite stone. On the terraces of the Jagamohana stand life-sized stone sculptures of celestial female musicians (Alasa Kanyas) playing cymbals, mridangams, flutes, and drums, renowned for their dynamic fluid postures and joyful devotional expression.",
+        "references": [
+          {
+            "title": "Masterpieces of Indian Sculpture",
+            "source": "Kramrisch, Stella",
+            "year": "1954"
+          },
+          {
+            "title": "Konarak: ASI Temple Survey",
+            "source": "Archaeological Survey of India",
+            "year": "1986"
+          }
+        ],
+        "keywords": [
+          "chlorite",
+          "surya statues",
+          "alasa kanyas",
+          "musicians",
+          "sculptures",
+          "khondalite",
+          "iconography",
+          "female dancers",
+          "carvings",
+          "green stone"
+        ]
+      },
+      {
+        "id": "konark-cons-01",
+        "category": "Conservation and Restoration",
+        "title": "1901 Sand Filling of the Jagamohana and Modern ASI Extraction Plan",
+        "content": "In 1901–1903 CE, British Lieutenant Governor Sir John Woodburn and engineer T.H. Ward ordered the interior of the hollow Jagamohana to be completely filled with sand and stones and permanently sealed with masonry doors to prevent its catastrophic collapse. Inscribed as a UNESCO World Heritage Site in 1984, the temple underwent comprehensive laser scanning by ASI and CBRI (Central Building Research Institute), which confirmed that the structure is now stable, leading to ongoing plans to safely extract the century-old sand using vacuum techniques.",
+        "references": [
+          {
+            "title": "Conservation of the Sun Temple, Konarak",
+            "source": "Archaeological Survey of India",
+            "year": "1906"
+          },
+          {
+            "title": "Structural Assessment and Sand Removal Feasibility at Konark Jagamohana",
+            "source": "CBRI Roorkee & ASI",
+            "year": "2020"
+          }
+        ],
+        "keywords": [
+          "sand filling",
+          "1901",
+          "jagamohana",
+          "cbri",
+          "asi",
+          "unesco",
+          "conservation",
+          "restoration",
+          "structural stability",
+          "sand removal"
+        ]
+      }
+    ]
+  }
+}

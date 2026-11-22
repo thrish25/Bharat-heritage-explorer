@@ -1,0 +1,185 @@
+@import "tailwindcss";
+@import "./design-tokens.css";
+@import "./viewer-theme.css";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-body);
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+  }
+
+  body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: var(--bg-main);
+    background-image: 
+      radial-gradient(ellipse at 50% 0%, rgba(36, 39, 41, 0.6) 0%, transparent 65%),
+      radial-gradient(ellipse at 50% 100%, rgba(28, 31, 33, 0.7) 0%, transparent 75%);
+    background-attachment: fixed;
+    color: var(--text-primary);
+  }
+
+  h1, h2, h3, h4 {
+    letter-spacing: -0.01em;
+  }
+
+  .font-editorial {
+    font-family: var(--font-editorial);
+  }
+
+  .font-display, .font-cinzel {
+    font-family: var(--font-display);
+    letter-spacing: 0.05em;
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+
+  .font-nav {
+    font-family: var(--font-nav);
+    font-weight: 500;
+  }
+
+  .font-numeric {
+    font-family: var(--font-numeric);
+    font-feature-settings: 'tnum' on, 'lnum' on;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #151719;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #292C2E;
+  border: 1px solid rgba(198, 161, 91, 0.25);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C6A15B;
+}
+
+/* Luxury Gold & Charcoal Utility Classes */
+.gold-text-antique {
+  color: #C6A15B;
+}
+
+.gold-text-highlight {
+  color: #E0C27B;
+}
+
+.gold-editorial-heading {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F3EBDD 40%, #E0C27B 85%, #C6A15B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 25px rgba(198, 161, 91, 0.18);
+}
+
+.charcoal-card-frame {
+  background-color: var(--surface-card);
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.65), 0 0 0 1px rgba(198, 161, 91, 0.08);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.charcoal-card-frame:hover {
+  transform: translateY(-4px);
+  border-color: var(--border-highlight);
+  box-shadow: 0 18px 45px -10px rgba(0, 0, 0, 0.85), 0 0 20px rgba(198, 161, 91, 0.2);
+}
+
+.gold-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(198, 161, 91, 0.4) 50%, transparent 100%);
+}
+
+.gold-divider-left {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(198, 161, 91, 0.5) 0%, transparent 100%);
+}
+
+/* Elegant Ornamental Corner Inset */
+.charcoal-double-border {
+  position: relative;
+}
+
+.charcoal-double-border::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border: 1px solid rgba(198, 161, 91, 0.18);
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Delicate Gold Corner Accents */
+.gold-corner {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-color: #C6A15B;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.gold-corner-tl {
+  top: -1px;
+  left: -1px;
+  border-top: 2px solid #C6A15B;
+  border-left: 2px solid #C6A15B;
+}
+
+.gold-corner-tr {
+  top: -1px;
+  right: -1px;
+  border-top: 2px solid #C6A15B;
+  border-right: 2px solid #C6A15B;
+}
+
+.gold-corner-bl {
+  bottom: -1px;
+  left: -1px;
+  border-bottom: 2px solid #C6A15B;
+  border-left: 2px solid #C6A15B;
+}
+
+.gold-corner-br {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 2px solid #C6A15B;
+  border-right: 2px solid #C6A15B;
+}
+
+/* ==========================================================================
+   Model Viewer & WebXR DOM Overlay Styles
+   ========================================================================== */
+model-viewer {
+  --poster-color: transparent;
+  outline: none;
+  background-color: transparent;
+}
+
+/* Hide fallback QR modal from model-viewer */
+model-viewer::part(default-ar-modal) {
+  display: none !important;
+}
+
+body.ar-session-active button,
+body.ar-session-active a,
+body.ar-session-active input {
+  pointer-events: auto !important;
+  touch-action: manipulation;
+}
+

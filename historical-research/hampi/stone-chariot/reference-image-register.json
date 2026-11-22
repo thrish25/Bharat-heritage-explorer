@@ -1,0 +1,163 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Hampi Stone Chariot Audited Reference Image Register",
+  "project": "Royal Heritage Platform — Historical Digital Reconstruction",
+  "pilotMonument": "Hampi Stone Chariot (Garuda Shrine)",
+  "version": "1.1.0",
+  "auditDate": "2026-11-14",
+  "referenceImages": [
+    {
+      "imageId": "IMG-HIST-1856-GREENLAW-01",
+      "sourceId": "SRC-PHOTO-06",
+      "title": "Stone Chariot in the Vittala Temple with Intact Brick Superstructure",
+      "creator": "Colonel Alexander John Greenlaw (1818–1870), 60th Native Infantry, Madras Army",
+      "captureYear": 1856,
+      "processMedium": "Waxed-paper calotype negative (30 x 40 cm negative; 1910 exhibition print)",
+      "repositoryArchive": "Alkazi Collection of Photography (ACP 98.48.0001) / Victoria and Albert Museum (1910 Prints)",
+      "directSourcePageUrl": "https://collections.vam.ac.uk/",
+      "archivalIdentifier": "Alkazi Collection ACP 98.48.0001 / V&A Indian Dept 1910",
+      "viewpointAndAngle": "Oblique frontal elevation from northwest across the Vittala courtyard",
+      "visibleArchitecturalFeatures": [
+        "Conclusive proof of stepped pyramidal brick-and-mortar Dravidian vimana superstructure resting on the flat stone roof.",
+        "Visual profile of tiered tower tapering to a domical sikhara and terminal kalasa finial.",
+        "Definitive absence of guardian elephant sculptures in front of the entrance steps in 1856.",
+        "Chariot entrance balustrades showing pre-existing damage where draft animals stood.",
+        "Four granite wheels and molded plinth in authentic 19th-century courtyard soil level."
+      ],
+      "evidenceClassification": {
+        "presenceOfVimana": "VERIFIED",
+        "absenceOfElephants": "VERIFIED",
+        "exactNumericalHeight": "UNSUPPORTED (Unmeasured prior to loss; estimated proportionally)",
+        "microStuccoReliefs": "UNCERTAIN (Blurred by calotype paper grain)"
+      },
+      "copyrightLicensing": {
+        "underlyingWorkLicense": "Public Domain (author died 1870; work created 1856)",
+        "digitalScanTerms": "Institutional terms apply for museum digital scans (V&A / Alkazi Foundation); scholarly reference permitted with credit.",
+        "attributionRequirement": "Photo: Col. Alexander John Greenlaw (1856) / Alkazi Collection of Photography / Victoria and Albert Museum"
+      },
+      "reconstructionUtility": "Primary historical baseline for the existence, stepped profile, and height-to-width proportion (~1:1 height relative to granite body) of the lost vimana superstructure.",
+      "usageWarning": "Calotype paper grain obscures micro-level stucco reliefs. Superstructure massing is verified, but specific figural deity reliefs must not be speculatively invented."
+    },
+    {
+      "imageId": "IMG-HIST-1856-NEILL-02",
+      "sourceId": "SRC-PHOTO-07",
+      "title": "Temple of Vithoba with an Idol Car of Stone",
+      "creator": "Dr. Andrew Charles Brisbane Neill (1814–1891), Surgeon, Madras Medical Service",
+      "captureYear": 1856,
+      "publicationYear": 1866,
+      "processMedium": "Albumen print from calotype negative (26.2 x 34.9 cm image on 43.0 x 58.0 cm mount)",
+      "repositoryArchive": "Royal Collection Trust (UK)",
+      "directSourcePageUrl": "https://www.rct.uk/collection/2603956/temple-of-vithoba-with-an-idol-car-of-stone",
+      "archivalIdentifier": "Royal Collection Trust RCIN 2603956",
+      "viewpointAndAngle": "Northwest oblique three-quarter perspective showing front steps and northern chariot flank",
+      "visibleArchitecturalFeatures": [
+        "Stepped brick-and-mortar vimana superstructure crowning the chariot flat roof.",
+        "Independent photographic corroboration of the multi-tiered superstructure silhouette.",
+        "Definitive absence of the modern guardian stone elephants in front of the staircase.",
+        "Granite wheels, stone axles, and molded adhisthana plinth in authentic 19th-century state."
+      ],
+      "evidenceClassification": {
+        "presenceOfVimana": "VERIFIED",
+        "absenceOfElephants": "VERIFIED",
+        "exactDimensions": "UNSUPPORTED (Perspective photograph without surveyor scale)"
+      },
+      "copyrightLicensing": {
+        "underlyingWorkLicense": "Public Domain (captured 1856; author died 1891; published 1866)",
+        "digitalScanTerms": "Subject to Royal Collection Trust terms: digital scan copyright © Royal Collection Enterprises Limited / His Majesty King Charles III. Scholarly reference permitted with citation.",
+        "attributionRequirement": "Photo: Dr. A. C. Brisbane Neill (1856–57) / Royal Collection Trust (RCIN 2603956)"
+      },
+      "reconstructionUtility": "Vital cross-verification source independently corroborating Greenlaw 1856 regarding the existence and visual massing of the brick superstructure and the absence of elephants.",
+      "usageWarning": "Like Greenlaw 1856, oblique perspective foreshortens the southern and eastern faces. Rear western elevation is obscured."
+    },
+    {
+      "imageId": "IMG-MOD-2016-DARSI-03",
+      "sourceId": "SRC-ASI-01",
+      "title": "Stone Chariot, Hampi (Present-Day High-Resolution Ground Truth)",
+      "creator": "Ankit Darsi",
+      "captureYear": 2016,
+      "processMedium": "High-resolution digital photography (Nikon DSLR, RAW capture)",
+      "repositoryArchive": "Wikimedia Commons",
+      "directSourcePageUrl": "https://commons.wikimedia.org/wiki/File:Stone_chariot,_Hampi.jpg",
+      "archivalIdentifier": "Wikimedia Commons File:Stone_chariot,_Hampi.jpg (Page ID: 51921389)",
+      "localProjectAssetPath": "public/images/monuments/hampi_chariot.jpg",
+      "nativeResolution": "3840 x 2560 pixels (9.83 Megapixels, 1.52 MB JPEG)",
+      "viewpointAndAngle": "Oblique northwest perspective capturing the north flank and entrance steps, aligning with the 1856 archival angle",
+      "visibleArchitecturalFeatures": [
+        "Sub-millimeter granite surface texture of surviving adhisthana plinth, moldings, and relief friezes.",
+        "Intact concentric floral carvings on front and rear north wheels.",
+        "Modern addition: Two guardian stone elephants flanking entrance steps.",
+        "Surviving in-situ relief carvings of draft animal hindquarters on balustrades behind elephants.",
+        "Flat top roof slab with bare masonry platform where superstructure once rested."
+      ],
+      "evidenceClassification": {
+        "survivingGraniteFabric": "VERIFIED (100% authentic ground truth)",
+        "modernElephants": "VERIFIED_LATER_ADDITION",
+        "missingSuperstructure": "VERIFIED_ABSENT_PRESENT_DAY"
+      },
+      "copyrightLicensing": {
+        "underlyingWorkLicense": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "digitalScanTerms": "Free culture license permitting adaptation and reuse with proper attribution and share-alike licensing.",
+        "attributionRequirement": "Photo: Ankit Darsi / Wikimedia Commons / CC BY-SA 4.0"
+      },
+      "reconstructionUtility": "Primary modern architectural baseline and ground-truth canvas for digital reconstruction. Preserves authentic lighting, granite texture, and camera geometry.",
+      "usageWarning": "Contains non-original historical features: added guardian elephants, cemented axle joints, and missing superstructure."
+    },
+    {
+      "imageId": "IMG-PANO-2022-VITTALA-04",
+      "sourceId": "SRC-UNESCO-02",
+      "title": "Vijaya Vittala Temple Courtyard 360° Equirectangular Panorama",
+      "creator": "Royal Heritage Platform Curatorial Integration Team",
+      "captureYear": 2022,
+      "processMedium": "Equirectangular spherical photographic panorama",
+      "repositoryArchive": "Royal Heritage Platform Public Assets",
+      "directSourcePageUrl": "public/assets/monuments/hampi/panoramas/vittala_temple.jpg",
+      "archivalIdentifier": "HAMPI-PANO-VITTALA-01",
+      "localProjectAssetPath": "public/assets/monuments/hampi/panoramas/vittala_temple.jpg",
+      "nativeResolution": "4096 x 2048 pixels (2:1 equirectangular ratio)",
+      "viewpointAndAngle": "Central quadrangle camera station facing the Stone Chariot with 360° visual field of the courtyard, Maha-Mandapa, and eastern gopuram",
+      "visibleArchitecturalFeatures": [
+        "Full spatial relationship between the Stone Chariot, the Maha-Mandapa hypostyle hall, and the eastern Raja Gopuram.",
+        "Authentic lighting, sun angle, and courtyard flagstone environment."
+      ],
+      "evidenceClassification": {
+        "courtyardSpatialContext": "VERIFIED (Authentic present-day archaeological environment)"
+      },
+      "copyrightLicensing": {
+        "underlyingWorkLicense": "Internal Platform Integrated Asset / Open Educational Heritage",
+        "digitalScanTerms": "Protected project asset; protected against modification or deletion.",
+        "attributionRequirement": "Royal Heritage Platform Architectural Documentation"
+      },
+      "reconstructionUtility": "Spatial coordinate reference benchmark for 360° exploration. MUST REMAIN 100% UNMODIFIED.",
+      "usageWarning": "DO NOT MODIFY OR OVERWRITE."
+    },
+    {
+      "imageId": "IMG-ARCH-IN-SITU-HORSE-05",
+      "sourceId": "SRC-ASI-PUB-03",
+      "title": "In-Situ Relief Detail of Draft Animal Hind Legs on Entrance Balustrades",
+      "creator": "Archaeological Survey of India / Hampi Heritage Inventory",
+      "captureYear": 2018,
+      "processMedium": "Macro digital architectural documentation",
+      "repositoryArchive": "ASI Hampi Circle Field Documentation & Longhurst Survey Archive",
+      "directSourcePageUrl": "https://asihampicircle.in/",
+      "archivalIdentifier": "ASI-HC-ARCH-BALUSTRADE-03",
+      "viewpointAndAngle": "Lateral close-up view behind modern elephant flank looking at granite balustrade wall",
+      "visibleArchitecturalFeatures": [
+        "Chiseled stone relief depicting the muscular hind leg, hock, and falling tail of a draft quadruped.",
+        "Broken granite joint where the protruding animal forepart severed."
+      ],
+      "evidenceClassification": {
+        "hindquartersReliefInSitu": "VERIFIED",
+        "identificationAsHorse": "PROBABLE (Longhurst 1917, standard Dravidian ratha typology)",
+        "forequartersAnatomy": "UNCERTAIN / LOST",
+        "museumFragments": "UNSUPPORTED (No catalogued fragments exist)"
+      },
+      "copyrightLicensing": {
+        "underlyingWorkLicense": "Government of India Archaeological Heritage Citation",
+        "digitalScanTerms": "Scholarly citation under fair practice for archaeological research.",
+        "attributionRequirement": "Archaeological Survey of India (ASI) Hampi Circle Survey Records"
+      },
+      "reconstructionUtility": "Definitive physical proof that draft animals were originally integrated into the entrance staircase.",
+      "usageWarning": "Relief shows ONLY hindquarters; cranial, facial, neck, mane, and pulling harness details are entirely absent from the stone and must NOT be fabricated as verified historical facts."
+    }
+  ]
+}

@@ -1,0 +1,719 @@
+{
+  "hampi": {
+    "en": [
+      {
+        "start": 0.1,
+        "end": 10.16,
+        "text": "Welcome to Hampi, the legendary capital of the Vijayanagara Empire and a celebrated UNESCO World Heritage Site nestled in Karnataka, India."
+      },
+      {
+        "start": 10.11,
+        "end": 24.41,
+        "text": "Situated along the rugged granite banks of the sacred Tungabhadra River, Hampi flourished between the fourteenth and sixteenth centuries as one of the largest and most prosperous metropolises in the medieval world."
+      },
+      {
+        "start": 24.41,
+        "end": 38.64,
+        "text": "It served as a bustling center of imperial administration, international diamond trade, and magnificent temple architecture under visionary monarchs like King Devaraya the Second and Emperor Krishnadevaraya."
+      },
+      {
+        "start": 38.64,
+        "end": 46.01,
+        "text": "Standing majestically in the grand courtyard of the Vijaya Vittala Temple is the world-renowned Stone Chariot."
+      },
+      {
+        "start": 46.01,
+        "end": 58.39,
+        "text": "Although appearing as a seamless monolithic monument, this exquisite shrine was sculpted from finely dressed granite slabs joined with astonishing mortise-and-tenon craftsmanship."
+      },
+      {
+        "start": 58.39,
+        "end": 66.94,
+        "text": "Dedicated to Garuda, the divine mount of Lord Vishnu, this sacred chariot stands directly facing the primary sanctum."
+      },
+      {
+        "start": 66.94,
+        "end": 83.1,
+        "text": "Historically, its four multi-spoked stone wheels with carved floral rosettes were engineered to rotate freely on solid stone axles, reflecting the pinnacle of mechanical and artistic genius achieved by Vijayanagara sculptors."
+      },
+      {
+        "start": 83.1,
+        "end": 91.2,
+        "text": "Just steps away lies the breathtaking Maha Mandapa, famed across the world for its fifty-six musical pillars."
+      },
+      {
+        "start": 91.2,
+        "end": 105.53,
+        "text": "When struck gently, these slender granite shafts produce resonant acoustic tones corresponding to classical Indian musical scales, a technological achievement that continues to astonish modern acousticians."
+      },
+      {
+        "start": 105.53,
+        "end": 118.49,
+        "text": "During its golden era, Hampi was praised by travelers and merchants arriving from Persia, Portugal, and Italy, who documented markets overflowing with rubies and pearls."
+      },
+      {
+        "start": 118.49,
+        "end": 125.61,
+        "text": "The site also inspired saintly musicians like Purandara Dasa, the father of Carnatic music."
+      },
+      {
+        "start": 125.61,
+        "end": 137.41,
+        "text": "Today, the Stone Chariot is proudly immortalized on India's fifty-rupee currency note, representing the eternal strength and cultural brilliance of South Indian heritage."
+      },
+      {
+        "start": 137.41,
+        "end": 151.04,
+        "text": "We invite you to explore this augmented reality exhibit, walking around the chariot base, inspecting the guardian elephant reliefs, and experiencing centuries of living history from every perspective."
+      }
+    ],
+    "kn": [
+      {
+        "start": 0.1,
+        "end": 8.88,
+        "text": "ಐತಿಹಾಸಿಕ ವಿಜಯನಗರ ಸಾಮ್ರಾಜ್ಯದ ವೈಭವೋಪೇತ ರಾಜಧಾನಿ ಹಾಗೂ ಯುನೆಸ್ಕೋ ವಿಶ್ವ ಪರಂಪರೆಯ ತಾಣವಾದ ಕರ್ನಾಟಕದ ಹಂಪಿಗೆ ಆತ್ಮೀಯ ಸುಸ್ವಾಗತ."
+      },
+      {
+        "start": 8.82,
+        "end": 20.94,
+        "text": "ಪವಿತ್ರ ತುಂಗಭದ್ರಾ ನದಿಯ ಬಂಡೆಗಳ ತೀರದಲ್ಲಿ ನೆಲೆಗೊಂಡಿರುವ ಹಂಪಿಯು, ೧೪ ರಿಂದ ೧೬ನೇ ಶತಮಾನಗಳ ಕಾಲದಲ್ಲಿ ಇಡೀ ವಿಶ್ವದಲ್ಲೇ ಅತ್ಯಂತ ಶ್ರೀಮಂತ ಹಾಗೂ ಬೃಹತ್ ಮಹಾನಗರಗಳಲ್ಲಿ ಒಂದಾಗಿ ಪ್ರಸಿದ್ಧವಾಗಿತ್ತು."
+      },
+      {
+        "start": 20.94,
+        "end": 32.17,
+        "text": "ಇಮ್ಮಡಿ ದೇವರಾಯ ಮತ್ತು ಶ್ರೀಕೃಷ್ಣದೇವರಾಯರಂತಹ ಮಹಾನ್ ಚಕ್ರವರ್ತಿಗಳ ಆಳ್ವಿಕೆಯಲ್ಲಿ ಹಂಪಿಯು ಅಂತಾರಾಷ್ಟ್ರೀಯ ವಜ್ರ ವ್ಯಾಪಾರ, ರಾಜಕೀಯ ಶಕ್ತಿ ಮತ್ತು ಉನ್ನತ ಕಲಾ ಸಂಸ್ಕೃತಿಯ ಕೇಂದ್ರಬಿಂದುವಾಗಿ ಬೆಳಗಿತು."
+      },
+      {
+        "start": 32.17,
+        "end": 39.66,
+        "text": "ಇಲ್ಲಿನ ಭವ್ಯ ವಿಜಯ ವಿಠ್ಠಲ ದೇವಾಲಯದ ವಿಶಾಲ ಪ್ರಾಂಗಣದಲ್ಲಿ ವಿಶ್ವವಿಖ್ಯಾತ ಕಲ್ಲಿನ ರಥವು ಅತ್ಯಂತ ಗಂಭೀರವಾಗಿ ನೆಲೆನಿಂತಿದೆ."
+      },
+      {
+        "start": 39.66,
+        "end": 47.86,
+        "text": "ಇದು ಒಂದೇ ಬಂಡೆಯಂತೆ ಕಂಡರೂ, ಕಲಾತ್ಮಕವಾಗಿ ಸಂಯೋಜಿಸಲ್ಪಟ್ಟ ಗ್ರಾನೈಟ್ ಕಲ್ಲುಗಳ ಜೋಡಣೆಯಿಂದ ನಿರ್ಮಿಸಲಾದ ಅದ್ಭುತ ವಾಸ್ತುಶಿಲ್ಪವಾಗಿದೆ."
+      },
+      {
+        "start": 47.86,
+        "end": 55.71,
+        "text": "ಶ್ರೀ ಮಹಾವಿಷ್ಣುವಿನ ವಾಹನವಾದ ಗರುಡ ದೇವರಿಗೆ ಸಮರ್ಪಿತವಾಗಿರುವ ಈ ಪವಿತ್ರ ರಥದ ಗುಡಿಯು ಮುಖ್ಯ ಗರ್ಭಗುಡಿಗೆ ಅಭಿಮುಖವಾಗಿದೆ."
+      },
+      {
+        "start": 55.71,
+        "end": 67.78,
+        "text": "ಹಿಂದೆ ಈ ರಥದ ಸುಂದರ ಕಲ್ಲಿನ ಚಕ್ರಗಳು ನಿಜವಾದ ಕಲ್ಲಿನ ಅಚ್ಚುಗಳ ಮೇಲೆ ಸುಲಭವಾಗಿ ತಿರುಗುವಂತೆ ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದ್ದು, ವಿಜಯನಗರದ ಶಿಲ್ಪಿಗಳ ತಾಂತ್ರಿಕ ಹಾಗೂ ಸೃಜನಶೀಲ ಪ್ರತಿಭೆಗೆ ಸಾಕ್ಷಿಯಾಗಿದೆ."
+      },
+      {
+        "start": 67.78,
+        "end": 73.94,
+        "text": "ರಥದ ಪಕ್ಕದಲ್ಲೇ ವಿಶ್ವಪ್ರಸಿದ್ಧ ಐವತ್ತಾರು ಸಂಗೀತ ಸ್ತಂಭಗಳನ್ನು ಹೊಂದಿರುವ ಭವ್ಯ ಮಹಾಮಂಟಪವಿದೆ."
+      },
+      {
+        "start": 73.94,
+        "end": 84.5,
+        "text": "ಈ ಗ್ರಾನೈಟ್ ಕಂಬಗಳನ್ನು ಮೃದುವಾಗಿ ತಟ್ಟಿದಾಗ ಭಾರತೀಯ ಶಾಸ್ತ್ರೀಯ ಸಂಗೀತದ ಸಪ್ತಸ್ವರಗಳು ನಿನದಿಸುತ್ತವೆ, ಇದು ಇಂದಿಗೂ ವಿಶ್ವದ ಎಂಜಿನಿಯರ್‌ಗಳನ್ನು ಆಶ್ಚರ್ಯಚಕಿತಗೊಳಿಸುತ್ತಿದೆ."
+      },
+      {
+        "start": 84.5,
+        "end": 91.83,
+        "text": "ತನ್ನ ಸುವರ್ಣ ಕಾಲದಲ್ಲಿ ಹಂಪಿಯು ಪರ್ಷಿಯಾ, ಪೋರ್ಚುಗಲ್ ಮತ್ತು ಇಟಲಿಯಂತಹ ದೂರದ ದೇಶಗಳ ಪ್ರವಾಸಿಗರನ್ನು ಆಕರ್ಷಿಸಿತ್ತು."
+      },
+      {
+        "start": 91.83,
+        "end": 97.72,
+        "text": "ಕರ್ನಾಟಕ ಸಂಗೀತ ಪಿತಾಮಹರಾದ ಪುರಂದರದಾಸರ ಕೀರ್ತನೆಗಳು ಈ ಪುಣ್ಯಭೂಮಿಯಲ್ಲಿ ಅನುರಣಿಸಿದವು."
+      },
+      {
+        "start": 97.72,
+        "end": 106.35,
+        "text": "ಇಂದು ಈ ಕಲ್ಲಿನ ರಥವು ಭಾರತ ಸರ್ಕಾರದ ಐವತ್ತು ರೂಪಾಯಿ ನೋಟಿನ ಮೇಲೆ ಮುದ್ರಿತವಾಗಿದ್ದು, ಭಾರತೀಯ ಶಾಸ್ತ್ರೀಯ ಪರಂಪರೆಯ ಶಾಶ್ವತ ಸಂಕೇತವಾಗಿದೆ."
+      },
+      {
+        "start": 106.35,
+        "end": 108.89,
+        "text": "ಈ ಸುಂದರ ವರ್ಧಿತ ವಾಸ್ತವ"
+      },
+      {
+        "start": 109.04,
+        "end": 116.42,
+        "text": "ಮಾದರಿಯನ್ನು ಸುತ್ತಲೂ ಪರಿಶೀಲಿಸಿ, ಗಜ ಶಿಲ್ಪಗಳು ಮತ್ತು ಕಲ್ಲಿನ ಕೆತ್ತನೆಗಳನ್ನು ಆನಂದಿಸಲು ನಿಮ್ಮನ್ನು ಸ್ವಾಗತಿಸುತ್ತೇವೆ."
+      }
+    ],
+    "hi": [
+      {
+        "start": 0.1,
+        "end": 10.65,
+        "text": "विजयनगर साम्राज्य की ऐतिहासिक राजधानी और यूनेस्को की विश्व धरोहर स्थल, कर्नाटक के पावन हम्पी में आपका हार्दिक स्वागत है।"
+      },
+      {
+        "start": 10.6,
+        "end": 23.96,
+        "text": "पवित्र तुंगभद्रा नदी के तट पर ग्रेनाइट चट्टानों के बीच स्थित हम्पी, चौदहवीं से सोलहवीं शताब्दी के दौरान मध्यकालीन विश्व के सबसे बड़े और समृद्ध महानगरों में गिना जाता था।"
+      },
+      {
+        "start": 23.96,
+        "end": 37.06,
+        "text": "यह महान साम्राज्य राजा देवराय द्वितीय और प्रतापी सम्राट कृष्णदेवराय के दूरदर्शी नेतृत्व में अंतरराष्ट्रीय व्यापार, हीरों के बाज़ारों और भव्य वास्तुकला का वैश्विक केंद्र बना।"
+      },
+      {
+        "start": 37.06,
+        "end": 46.81,
+        "text": "विजय विट्ठल मंदिर के विशाल प्रांगण में विश्व प्रसिद्ध प्रस्तर रथ या स्टोन चैरियट अपनी पूरी भव्यता के साथ सुशोभित है।"
+      },
+      {
+        "start": 46.81,
+        "end": 58.33,
+        "text": "यद्यपि यह एक ही विशाल शिला जैसा प्रतीत होता है, परंतु वास्तव में यह परस्पर जुड़े हुए परिष्कृत ग्रेनाइट पत्थरों का एक अद्वितीय चमत्कार है।"
+      },
+      {
+        "start": 58.33,
+        "end": 66.76,
+        "text": "भगवान विष्णु के दिव्य वाहन गरुड़ को समर्पित यह रथ मंदिर, मुख्य गर्भगृह के ठीक सम्मुख स्थापित है।"
+      },
+      {
+        "start": 66.76,
+        "end": 79.47,
+        "text": "ऐतिहासिक रूप से इसके चार अलंकृत चक्र वास्तविक पत्थर के धुरों पर स्वतंत्र रूप से घूम सकते थे, जो विजयनगर के शिल्पकारों के बेजोड़ इंजीनियरिंग कौशल का प्रमाण है।"
+      },
+      {
+        "start": 79.47,
+        "end": 88.08,
+        "text": "रथ के निकट ही भव्य महामंडप स्थित है, जो अपने छप्पन संगीतमय स्तंभों के लिए विश्व भर में प्रसिद्ध है।"
+      },
+      {
+        "start": 88.08,
+        "end": 100.66,
+        "text": "इन स्तंभों को हल्के से थपथपाने पर भारतीय शास्त्रीय संगीत के सात सुरों की मधुर ध्वनियाँ गूंजती हैं, जो आज भी वैज्ञानिकों और वास्तुकारों को चकित करती हैं।"
+      },
+      {
+        "start": 100.66,
+        "end": 111.99,
+        "text": "अपने स्वर्णिम युग में हम्पी ने फारस, पुर्तगाल और इटली के विदेशी राजदूतों को आकर्षित किया, जिन्होंने इसके वैभव का विस्तार से वर्णन किया है।"
+      },
+      {
+        "start": 111.99,
+        "end": 120.34,
+        "text": "यह पावन धरा कर्नाटक संगीत के पितामह संत पुरंदर दास की भक्ति रचनाओं से भी गुंजायमान रही है।"
+      },
+      {
+        "start": 120.34,
+        "end": 128.5,
+        "text": "आज यह ऐतिहासिक प्रस्तर रथ भारत के पचास रुपये के नोट पर अंकित होकर भारतीय गौरव और कलात्मक"
+      },
+      {
+        "start": 128.67,
+        "end": 132.84,
+        "text": "उत्कृष्टता का शाश्वत प्रतीक बना हुआ है।"
+      },
+      {
+        "start": 132.79,
+        "end": 144.72,
+        "text": "हम आपको इस संवर्धित वास्तविकता मॉडल का अवलोकन करने, इसके नक्काशीदार पहियों और संरक्षक हाथियों को हर कोण से निहारने के लिए आमंत्रित करते हैं।"
+      }
+    ]
+  },
+  "taj": {
+    "en": [
+      {
+        "start": 0.1,
+        "end": 10.96,
+        "text": "Welcome to the Taj Mahal in Agra, Uttar Pradesh—an eternal jewel of Mughal architecture and one of the universally admired Wonders of the World."
+      },
+      {
+        "start": 10.91,
+        "end": 26.06,
+        "text": "Rising gracefully on the southern banks of the sacred Yamuna River, this white marble mausoleum was commissioned in 1631 by Mughal Emperor Shah Jahan to honor the memory of his beloved empress, Mumtaz Mahal."
+      },
+      {
+        "start": 26.06,
+        "end": 40.01,
+        "text": "Constructed over two decades with the labor of over twenty thousand skilled artisans under the master architect Ustad Ahmad Lahori, the Taj Mahal represents the pinnacle of Indo-Islamic architectural harmony."
+      },
+      {
+        "start": 40.01,
+        "end": 55.31,
+        "text": "The monument is built entirely from pure translucent Makrana marble sourced from Rajasthan, which reflects varying hues of soft pink at sunrise, brilliant white at midday, and luminous gold under moonlight."
+      },
+      {
+        "start": 55.31,
+        "end": 64.14,
+        "text": "Resting upon a grand elevated plinth, the complex exemplifies perfect bilateral symmetry along its central axis."
+      },
+      {
+        "start": 64.14,
+        "end": 77.74,
+        "text": "The soaring central onion dome rises to an impressive height of seventy-three meters, framed by four elegant multi-tiered minarets that tilt slightly outwards to safeguard the tomb from earthquakes."
+      },
+      {
+        "start": 77.74,
+        "end": 95.67,
+        "text": "The marble surfaces are enriched with parchin kari, a sophisticated pietra dura inlay technique featuring semi-precious gemstones including lapis lazuli, carnelian, jade, and jasper delicately embedded into floral arabesques and Quranic calligraphy."
+      },
+      {
+        "start": 95.67,
+        "end": 106.26,
+        "text": "Surrounding the monument is the serene Charbagh paradise garden, symbolizing the four rivers of heaven with sunken flowerbeds and reflective water channels."
+      },
+      {
+        "start": 106.26,
+        "end": 118.96,
+        "text": "Designated as a UNESCO World Heritage Site in 1983, the Taj Mahal stands as an enduring monument to enduring devotion and sublime classical artistic expression."
+      },
+      {
+        "start": 118.96,
+        "end": 129.6,
+        "text": "We invite you to interact with this detailed three-dimensional exhibit to explore its symmetrical arches, marble facade, and magnificent dome."
+      }
+    ],
+    "kn": [
+      {
+        "start": 0.1,
+        "end": 8.56,
+        "text": "ಉತ್ತರ ಪ್ರದೇಶದ ಆಗ್ರಾದಲ್ಲಿರುವ ಯಮುನಾ ನದಿಯ ತೀರದಲ್ಲಿ ನೆಲೆಸಿರುವ, ವಿಶ್ವದ ಅದ್ಭುತಗಳಲ್ಲಿ ಒಂದಾದ ತಾಜ್ ಮಹಲ್‌ಗೆ ಹೃತ್ಪೂರ್ವಕ ಸುಸ್ವಾಗತ."
+      },
+      {
+        "start": 8.51,
+        "end": 21.8,
+        "text": "ಮೊಘಲ್ ವಾಸ್ತುಶಿಲ್ಪದ ಪರಮ ಶ್ರೇಷ್ಠತೆಯ ಪ್ರತೀಕವಾಗಿರುವ ಈ ಅಮೃತಶಿಲೆಯ ಭವ್ಯ ಸಮಾಧಿಯನ್ನು ೧೬೩೧ ರಲ್ಲಿ ಮೊಘಲ್ ಚಕ್ರವರ್ತಿ ಷಹಜಹಾನ್ ತನ್ನ ಪ್ರೀತಿಯ ಪತ್ನಿ ಮುಮ್ತಾಜ್ ಮಹಲ್ ಅವರ ಶಾಶ್ವತ ನೆನಪಿಗಾಗಿ ನಿರ್ಮಿಸಿದನು."
+      },
+      {
+        "start": 21.8,
+        "end": 31.73,
+        "text": "ಮುಖ್ಯ ವಾಸ್ತುಶಿಲ್ಪಿ ಉಸ್ತಾದ್ ಅಹ್ಮದ್ ಲಾಹೋರಿ ಅವರ ನೇತೃತ್ವದಲ್ಲಿ ಇಪ್ಪತ್ತು ಸಾವಿರಕ್ಕೂ ಹೆಚ್ಚು ಕುಶಲಕರ್ಮಿಗಳು ಎರಡು ದಶಕಗಳ ಕಾಲ ಶ್ರಮಿಸಿ ಈ ದಿವ್ಯ ಸ್ಮಾರಕವನ್ನು ನಿರ್ಮಿಸಿದರು."
+      },
+      {
+        "start": 31.73,
+        "end": 44.92,
+        "text": "ರಾಜಸ್ಥಾನದ ಮಕ್ರಾನಾದಿಂದ ತರಲಾದ ಶುದ್ಧ ಬಿಳಿ ಅಮೃತಶಿಲೆಯಿಂದ ನಿರ್ಮಿತವಾಗಿರುವ ತಾಜ್ ಮಹಲ್, ಸೂರ್ಯೋದಯದಲ್ಲಿ ತಿಳಿ ಗುಲಾಬಿ, ಮಧ್ಯಾಹ್ನ ಪ್ರಕಾಶಮಾನ ಬಿಳಿ ಮತ್ತು ಹುಣ್ಣಿಮೆಯ ಬೆಳದಿಂಗಳಲ್ಲಿ ಚಿನ್ನದ ಬಣ್ಣದಲ್ಲಿ ಕಂಗೊಳಿಸುತ್ತದೆ."
+      },
+      {
+        "start": 44.92,
+        "end": 51.83,
+        "text": "ಭವ್ಯವಾದ ಎತ್ತರದ ವೇದಿಕೆಯ ಮೇಲೆ ನಿಂತಿರುವ ಈ ಸ್ಮಾರಕವು ಕೇಂದ್ರ ಅಕ್ಷದ ಉದ್ದಕ್ಕೂ ಸಂಪೂರ್ಣ ಸಮರೂಪತೆಯನ್ನು ಹೊಂದಿದೆ."
+      },
+      {
+        "start": 51.83,
+        "end": 62.96,
+        "text": "ಕೇಂದ್ರದ ಭವ್ಯ ಗುಮ್ಮಟವು ಎಪ್ಪತ್ತಮೂರು ಮೀಟರ್ ಎತ್ತರಕ್ಕೆ ಜಿಗಿದಿದ್ದು, ನಾಲ್ಕು ಮೂಲೆಗಳಲ್ಲಿರುವ ಸುಂದರ ಮಿನಾರಗಳು ಭೂಕಂಪದ ಸಂದರ್ಭದಲ್ಲಿ ಮುಖ್ಯ ಸಮಾಧಿಯನ್ನು ರಕ್ಷಿಸಲು ಸ್ವಲ್ಪ ಹೊರಮುಖವಾಗಿ ವಾಲಿಕೊಂಡಿವೆ."
+      },
+      {
+        "start": 62.96,
+        "end": 73.54,
+        "text": "ಅಮೃತಶಿಲೆಯ ಗೋಡೆಗಳ ಮೇಲೆ ಪಿಯೆಟ್ರಾ ಡ್ಯೂರಾ ಎಂಬ ರತ್ನಖಚಿತ ಕೆತ್ತನೆ ಕಲೆಯಿದ್ದು, ಲ್ಯಾಪಿಸ್ ಲಾಜುಲಿ, ಜೇಡ್ ಮತ್ತು ಕಾರ್ನೆಲಿಯನ್ ರತ್ನಗಳಿಂದ ಸುಂದರ ಹೂವಿನ ಬಳ್ಳಿಗಳನ್ನು ಕೆತ್ತಲಾಗಿದೆ."
+      },
+      {
+        "start": 73.54,
+        "end": 81.51,
+        "text": "ಸ್ಮಾರಕದ ಸುತ್ತಲೂ ಸ್ವರ್ಗದ ನಾಲ್ಕು ನದಿಗಳನ್ನು ಸಂಕೇತಿಸುವ ಚಾರ್‌ಬಾಗ್ ಉದ್ಯಾನವನ ಮತ್ತು ಪ್ರತಿಬಿಂಬಿಸುವ ಸುಂದರ ನೀರಿನ ಕೊಳಗಳಿವೆ."
+      },
+      {
+        "start": 81.51,
+        "end": 92.03,
+        "text": "೧೯೮೩ ರಲ್ಲಿ ಯುನೆಸ್ಕೋ ವಿಶ್ವ ಪರಂಪರೆಯ ತಾಣವೆಂದು ಘೋಷಿಸಲ್ಪಟ್ಟ ತಾಜ್ ಮಹಲ್, ಪ್ರಪಂಚದಾದ್ಯಂತ ಪ್ರೇಮ ಮತ್ತು ಕಲಾತ್ಮಕ ಸೌಂದರ್ಯದ ಶಾಶ್ವತ ಸಂಕೇತವಾಗಿದೆ."
+      },
+      {
+        "start": 92.03,
+        "end": 100.7,
+        "text": "ಈ ತ್ರಿಪರಿಮಾಣ ಮಾದರಿಯನ್ನು ತಿರುಗಿಸಿ, ಅಮೃತಶಿಲೆಯ ಕಮಾನುಗಳು ಮತ್ತು ಭವ್ಯ ಗುಮ್ಮಟದ ಸೂಕ್ಷ್ಮ ಕೆತ್ತನೆಗಳನ್ನು ಸವಿಯಲು ನಿಮ್ಮನ್ನು ಸ್ವಾಗತಿಸುತ್ತೇವೆ."
+      }
+    ],
+    "hi": [
+      {
+        "start": 0.1,
+        "end": 11.88,
+        "text": "उत्तर प्रदेश के आगरा में यमुना नदी के तट पर स्थित, विश्व के सात आश्चर्यों में शामिल और मुग़ल वास्तुकला के मुकुट रत्न, ताजमहल में आपका स्वागत है।"
+      },
+      {
+        "start": 11.82,
+        "end": 24.12,
+        "text": "इस अलौकिक संगमरमरी स्मारक का निर्माण मुग़ल बादशाह शाहजहाँ ने अपनी प्रिय बेगम मुमताज़ महल की पावन स्मृति में सन् 1631 में आरंभ करवाया था।"
+      },
+      {
+        "start": 24.12,
+        "end": 35.77,
+        "text": "प्रधान वास्तुकार उस्ताद अहमद लाहौरी के मार्गदर्शन में बीस हज़ार से अधिक कुशल कारीगरों ने लगभग बाईस वर्षों के अथक परिश्रम से इसका निर्माण पूर्ण किया।"
+      },
+      {
+        "start": 35.77,
+        "end": 49.81,
+        "text": "राजस्थान के मकराना से लाए गए शुद्ध श्वेत संगमरमर से निर्मित यह स्मारक भोर की पहली किरण में गुलाबी, दोपहर में दूधिया श्वेत और पूर्णिमा की चांदनी में स्वर्णिम आभा बिखेरता है।"
+      },
+      {
+        "start": 49.81,
+        "end": 61.12,
+        "text": "एक विशाल चबूतरे पर प्रतिष्ठित यह वास्तुकला चमत्कार अपनी केंद्रीय धुरी पर पूर्ण समरूपता और संतुलन का सर्वश्रेष्ठ उदाहरण प्रस्तुत करता है।"
+      },
+      {
+        "start": 61.12,
+        "end": 76.04,
+        "text": "इसका मुख्य गुंबद तिहत्तर मीटर की ऊंचाई तक आकाश को छूता है, जिसके चारों कोनों पर चार भव्य मीनारें स्थित हैं, जो भूकंप से मुख्य समाधि की रक्षा हेतु सूक्ष्म रूप से बाहर की ओर झुकी हैं।"
+      },
+      {
+        "start": 76.04,
+        "end": 90.55,
+        "text": "दीवारों पर पिएत्रा ड्यूरा यानी पच्चीकारी की बेमिसाल कला प्रदर्शित है, जिसमें लाजवर्त, अकीक, जेड और नीलम जैसे बहुमूल्य पत्थरों को संगमरमर में तराश कर पुष्प आकृतियाँ बनाई गई हैं।"
+      },
+      {
+        "start": 90.55,
+        "end": 102.2,
+        "text": "इसके सम्मुख बना चारबाग उद्यान जन्नत की चार पवित्र नदियों का प्रतीक है, जिसके शांत फव्वारे और जल कुंड ताजमहल के भव्य बिंब को दर्शाते हैं।"
+      },
+      {
+        "start": 102.2,
+        "end": 112.21,
+        "text": "वर्ष 1983 में यूनेस्को द्वारा विश्व धरोहर घोषित ताजमहल भारतीय कला, प्रेम और समर्पण का कालजयी प्रतीक है।"
+      },
+      {
+        "start": 112.21,
+        "end": 123.22,
+        "text": "हम आपको इस डिजिटल मॉडल के माध्यम से इसके मेहराबों, मीनारों और उत्कृष्ट नक्काशी का नजदीकी अन्वेषण करने के लिए आमंत्रित करते हैं।"
+      }
+    ]
+  },
+  "konark": {
+    "en": [
+      {
+        "start": 0.1,
+        "end": 13.78,
+        "text": "Welcome to the Konark Sun Temple in Puri district, Odisha—a magnificent 13th-century architectural triumph dedicated to the Sun God Surya and an esteemed UNESCO World Heritage Site."
+      },
+      {
+        "start": 13.72,
+        "end": 27.71,
+        "text": "Commissioned around the year 1250 CE by the valiant King Narasimhadeva the First of the Eastern Ganga Dynasty, this monument was conceived as a monumental celestial chariot emerging from the Bay of Bengal."
+      },
+      {
+        "start": 27.71,
+        "end": 39.1,
+        "text": "According to classical mythology, Lord Surya traverses the heavens daily in a golden chariot, and this grand temple captures that divine journey in stone."
+      },
+      {
+        "start": 39.1,
+        "end": 51.55,
+        "text": "The chariot is driven by seven galloping stone horses, symbolizing the seven days of the week, the seven sacred meters of Sanskrit poetry, and the seven colors of sunlight."
+      },
+      {
+        "start": 51.55,
+        "end": 60.69,
+        "text": "Carved along the monument's ornate plinth are twenty-four colossal monolithic wheels, each measuring nearly three meters in diameter."
+      },
+      {
+        "start": 60.69,
+        "end": 76.46,
+        "text": "These wheels are not merely decorative reliefs; they are sophisticated astronomical sundials engineered with such mathematical precision that the shadows cast by their spokes indicate the exact time of day down to the minute."
+      },
+      {
+        "start": 76.46,
+        "end": 88.75,
+        "text": "Built in the classical Kalinga architectural tradition using Khondalite and dark chlorite stones, the complex once featured a soaring main tower that rose over sixty meters high."
+      },
+      {
+        "start": 88.75,
+        "end": 104.38,
+        "text": "The surviving Jagamohana assembly hall and the Natya Mandapa dance pavilion are densely adorned with breathtaking reliefs of musicians playing mridangams, cymbals, and flutes, alongside royal processions and mythical beasts."
+      },
+      {
+        "start": 104.38,
+        "end": 115.84,
+        "text": "Centuries of maritime history remember this sanctuary as the Black Pagoda, serving as a vital navigational landmark for sailors traversing the Indian Ocean."
+      },
+      {
+        "start": 115.84,
+        "end": 128.59,
+        "text": "Designated a UNESCO World Heritage Site in 1984, Konark remains a testament to ancient Indian astrophysics, sacred art, and monumental stone carving."
+      },
+      {
+        "start": 128.59,
+        "end": 140.09,
+        "text": "We invite you to explore this augmented reality exhibit, discovering the intricate wheel spokes and celebrating one of humanity's finest architectural accomplishments."
+      }
+    ],
+    "kn": [
+      {
+        "start": 0.1,
+        "end": 8.99,
+        "text": "ಒಡಿಶಾದ ಪುರಿ ಜಿಲ್ಲೆಯಲ್ಲಿ ಬಂಗಾಳಕೊಲ್ಲಿಯ ಕರಾವಳಿಯಲ್ಲಿ ನೆಲೆಸಿರುವ, ಸೂರ್ಯ ದೇವರಿಗೆ ಸಮರ್ಪಿತವಾದ ವಿಶ್ವವಿಖ್ಯಾತ ಕೊಣಾರ್ಕ್ ಸೂರ್ಯ ದೇವಾಲಯಕ್ಕೆ ಸುಸ್ವಾಗತ."
+      },
+      {
+        "start": 8.94,
+        "end": 12.24,
+        "text": "೧೩ನೇ ಶತಮಾನದಲ್ಲಿ, ಸುಮಾರು ಕ್ರಿ.ಶ."
+      },
+      {
+        "start": 12.24,
+        "end": 20.62,
+        "text": "೧೨೫೦ ರಲ್ಲಿ ಪೂರ್ವಾಂಗ ಗಂಗ ರಾಜವಂಶದ ಪ್ರಸಿದ್ಧ ದೊರೆ ಮೊದಲನೇ ನರಸಿಂಹದೇವನು ಈ ಅದ್ಭುತ ವಾಸ್ತುಶಿಲ್ಪವನ್ನು ನಿರ್ಮಿಸಿದನು."
+      },
+      {
+        "start": 20.62,
+        "end": 30.77,
+        "text": "ಈ ಇಡೀ ದೇವಾಲಯವನ್ನು ಸೂರ್ಯ ಭಗವಾನನ ಬೃಹತ್ ಆಕಾಶ ರಥದ ರೂಪದಲ್ಲಿ ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ, ಇದು ಸಾಗರದ ಅಲೆಗಳಿಂದ ಎದ್ದು ಆಕಾಶಕ್ಕೆ ಜಿಗಿಯುವಂತೆ ಭಾಸವಾಗುತ್ತದೆ."
+      },
+      {
+        "start": 30.77,
+        "end": 38.83,
+        "text": "ಈ ರಥವನ್ನು ವಾರದ ಏಳು ದಿನಗಳನ್ನು ಮತ್ತು ಸೂರ್ಯನ ಬೆಳಕಿನ ಏಳು ಬಣ್ಣಗಳನ್ನು ಪ್ರತಿನಿಧಿಸುವ ಏಳು ಬಲಿಷ್ಠ ಕಲ್ಲಿನ ಕುದುರೆಗಳು ಎಳೆಯುತ್ತಿವೆ."
+      },
+      {
+        "start": 38.83,
+        "end": 46.85,
+        "text": "ರಥದ ಪೀಠದ ಸುತ್ತಲೂ ಮೂರು ಮೀಟರ್ ವ್ಯಾಸವನ್ನು ಹೊಂದಿರುವ ಇಪ್ಪತ್ನಾಲ್ಕು ಬೃಹತ್ ಕಲ್ಲಿನ ಚಕ್ರಗಳನ್ನು ಅತ್ಯಂತ ನವಿರಾಗಿ ಕೆತ್ತಲಾಗಿದೆ."
+      },
+      {
+        "start": 46.85,
+        "end": 57.45,
+        "text": "ಈ ಚಕ್ರಗಳು ಕೇವಲ ಅಲಂಕಾರಿಕ ಶಿಲ್ಪಗಳಲ್ಲ; ಅವು ಅತ್ಯಂತ ನಿಖರವಾದ ಸೌರ ಗಡಿಯಾರಗಳಾಗಿವೆ, ಇವುಗಳ ಕಡ್ಡಿಗಳ ನೆರಳಿನಿಂದ ದಿನದ ನಿಖರವಾದ ಸಮಯವನ್ನು ಕ್ಷಣಾರ್ಧದಲ್ಲಿ ತಿಳಿಯಬಹುದು."
+      },
+      {
+        "start": 57.45,
+        "end": 66.62,
+        "text": "ಕಳಿಂಗ ವಾಸ್ತುಶಿಲ್ಪ ಶೈಲಿಯಲ್ಲಿ ಕೊಂಡಲೈಟ್ ಮತ್ತು ಕ್ಲೋರೈಟ್ ಕಲ್ಲುಗಳಿಂದ ನಿರ್ಮಿತವಾದ ಈ ಸಂಕೀರ್ಣವು ನೃತ್ಯ ಮಂಟಪ ಮತ್ತು ಜಗಮೋಹನ ಸಭಾಂಗಣಗಳನ್ನು ಒಳಗೊಂಡಿದೆ."
+      },
+      {
+        "start": 66.62,
+        "end": 75.66,
+        "text": "ಇಲ್ಲಿನ ಗೋಡೆಗಳ ಮೇಲೆ ಮೃದಂಗ, ಕೊಳಲು ಮತ್ತು ತಾಳಗಳನ್ನು ನುಡಿಸುವ ಆಪ್ಸರೆಯರ, ಗಂಧರ್ವರ ಮತ್ತು ನೃತ್ಯಗಾತಿಯರ ನೂರಾರು ಜೀವಂತ ಶಿಲ್ಪಗಳನ್ನು ಕಾಣಬಹುದು."
+      },
+      {
+        "start": 75.66,
+        "end": 84.5,
+        "text": "ಹಿಂದೆ ಬಂಗಾಳಕೊಲ್ಲಿಯಲ್ಲಿ ಪ್ರಯಾಣಿಸುತ್ತಿದ್ದ ನಾವಿಕರು ಈ ದೇವಾಲಯವನ್ನು ಕಪ್ಪು ಪಗೋಡಾ ಎಂದು ಗುರುತಿಸಿ ತಮ್ಮ ಹಡಗುಗಳಿಗೆ ದಿಕ್ಸೂಚಿಯಾಗಿ ಬಳಸುತ್ತಿದ್ದರು."
+      },
+      {
+        "start": 84.5,
+        "end": 94.99,
+        "text": "೧೯೮೪ ರಲ್ಲಿ ಯುನೆಸ್ಕೋ ವಿಶ್ವ ಪರಂಪರೆಯ ತಾಣವೆಂದು ಘೋಷಿಸಲ್ಪಟ್ಟ ಕೊಣಾರ್ಕ್, ಪ್ರಾಚೀನ ಭಾರತದ ಖಗೋಳಶಾಸ್ತ್ರ ಮತ್ತು ಶಿಲ್ಪಕಲೆಯ ಅದ್ಭುತ ಸಂಗಮವಾಗಿದೆ."
+      },
+      {
+        "start": 94.99,
+        "end": 101.33,
+        "text": "ಈ 3D ರಥ ಮಾದರಿಯನ್ನು ಸುತ್ತಲೂ ವೀಕ್ಷಿಸಿ, ಸೂರ್ಯ ಚಕ್ರಗಳ ವಿಸ್ಮಯಕಾರಿ ಕೆತ್ತನೆಯನ್ನು ಆನಂದಿಸಿ."
+      }
+    ],
+    "hi": [
+      {
+        "start": 0.1,
+        "end": 13.1,
+        "text": "ओडिशा के पुरी जिले में बंगाल की खाड़ी के पावन तट पर स्थित, तेरहवीं शताब्दी की स्थापत्य कला के शिखर और यूनेस्को विश्व धरोहर, कोणार्क सूर्य मंदिर में आपका स्वागत है।"
+      },
+      {
+        "start": 13.05,
+        "end": 25.49,
+        "text": "इस महास्मारक का निर्माण लगभग सन् 1250 में पूर्वी गंग राजवंश के प्रतापी राजा नरसिंहदेव प्रथम द्वारा सूर्य देव की उपासना हेतु करवाया गया था।"
+      },
+      {
+        "start": 25.49,
+        "end": 37.8,
+        "text": "समूचे मंदिर की परिकल्पना भगवान सूर्य के एक विशाल, भव्य और दिव्य रथ के रूप में की गई है, जो मानो समुद्र की लहरों से निकलकर आकाश की ओर अग्रसर हो रहा हो।"
+      },
+      {
+        "start": 37.8,
+        "end": 47.12,
+        "text": "इस रथ को सप्ताह के सात दिनों और सूर्य प्रकाश के सात रंगों का प्रतिनिधित्व करने वाले सात भव्य अश्व खींच रहे हैं।"
+      },
+      {
+        "start": 47.12,
+        "end": 55.4,
+        "text": "मंदिर के विशाल अधिष्ठान पर तीन मीटर व्यास वाले चौबीस विशाल नक्काशीदार पहिए उत्कीर्ण हैं।"
+      },
+      {
+        "start": 55.4,
+        "end": 69.75,
+        "text": "ये चक्र केवल कलात्मक रचनाएँ नहीं हैं, बल्कि यह अत्यधिक वैज्ञानिक धूपघड़ी या सनडायल हैं, जिनकी तीलियों पर पड़ने वाली छाया से दिन के समय की मिनट तक की सटीक गणना की जा सकती है।"
+      },
+      {
+        "start": 69.75,
+        "end": 80.25,
+        "text": "कलिंग वास्तुकला की पारंपरिक शैली में खोंडालाइट और क्लोराइट पत्थरों से निर्मित इस परिसर का मुख्य शिखर कभी साठ मीटर से भी अधिक ऊंचा था।"
+      },
+      {
+        "start": 80.25,
+        "end": 91.92,
+        "text": "इसके नटमंडप और जगमोहन की दीवारों पर मृदंग, वीणा और झांझ बजाती नर्तकियों, शाही जुलूसों और आध्यात्मिक प्रतीकों का सजीव चित्रण मिलता है।"
+      },
+      {
+        "start": 91.92,
+        "end": 102.99,
+        "text": "प्राचीन काल में समुद्री नाविक इसे ब्लैक पगोडा के नाम से पुकारते थे और अपनी नौकाओं के मार्गदर्शन हेतु एक तटवर्ती मील का पत्थर मानते थे।"
+      },
+      {
+        "start": 102.99,
+        "end": 114.34,
+        "text": "वर्ष 1984 में यूनेस्को द्वारा विश्व धरोहर घोषित कोणार्क प्राचीन भारतीय खगोल विज्ञान, गणित और पाषाण कला का अद्भुत संगम है।"
+      },
+      {
+        "start": 114.34,
+        "end": 125.61,
+        "text": "हम आपको इस संवर्धित वास्तविकता मॉडल के माध्यम से इन चमत्कारी चक्रों और अद्वितीय नक्काशी का साक्षात्कार करने के लिए आमंत्रित करते हैं।"
+      }
+    ]
+  },
+  "ellora": {
+    "en": [
+      {
+        "start": 0.1,
+        "end": 12.66,
+        "text": "Welcome to Ellora Caves in the Aurangabad district of Maharashtra, India—one of the world's most spectacular rock-cut architectural complexes and a UNESCO World Heritage Site."
+      },
+      {
+        "start": 12.61,
+        "end": 31.8,
+        "text": "Spanning thirty-four monumental rock excavations carved into the volcanic Charanandri basalt hills between the sixth and tenth centuries CE, Ellora stands as an extraordinary symbol of religious harmony, featuring Buddhist, Hindu, and Jain sanctuaries side by side."
+      },
+      {
+        "start": 31.8,
+        "end": 43.8,
+        "text": "The crowning masterpiece of this complex is Cave Sixteen: the awe-inspiring Kailasa Temple, commissioned in the eighth century by King Krishna the First of the Rashtrakuta Dynasty."
+      },
+      {
+        "start": 43.8,
+        "end": 56.88,
+        "text": "Kailasa is the largest monolithic rock excavation on Earth, sculpted not by assembling stones, but through a daring top-down engineering process carved directly into the mountain face."
+      },
+      {
+        "start": 56.88,
+        "end": 70.78,
+        "text": "An estimated two hundred thousand to four hundred thousand tonnes of solid basalt rock were excavated over several generations, using only simple hand-held hammers, chisels, and iron wedges."
+      },
+      {
+        "start": 70.78,
+        "end": 86.89,
+        "text": "Designed to replicate Mount Kailash, the sacred Himalayan abode of Lord Shiva, this multi-storeyed temple features an ornate multi-tiered vimana tower, a central Nandi pavilion, and colossal victory pillars known as Dhvajastambhas."
+      },
+      {
+        "start": 86.89,
+        "end": 96.24,
+        "text": "At the temple's foundation, life-sized elephants appear to support the immense weight of the entire monument on their stone backs."
+      },
+      {
+        "start": 96.24,
+        "end": 109.24,
+        "text": "The surrounding cliff galleries house dynamic sculptural masterworks, including the legendary relief of Ravana shaking Mount Kailash, celebrated for its dramatic tension and anatomical mastery."
+      },
+      {
+        "start": 109.24,
+        "end": 123.9,
+        "text": "Designated as a UNESCO World Heritage Site in 1983, Ellora Caves remains an eternal monument to ancient India's supreme audacity, structural engineering, and spiritual synthesis."
+      },
+      {
+        "start": 123.9,
+        "end": 134.88,
+        "text": "We invite you to explore this three-dimensional exhibit, discovering the rock-cut halls, monumental courtyards, and monolithic artistry from every perspective."
+      }
+    ],
+    "kn": [
+      {
+        "start": 0.1,
+        "end": 10.72,
+        "text": "ಮಹಾರಾಷ್ಟ್ರದ ಔರಂಗಾಬಾದ್ ಜಿಲ್ಲೆಯಲ್ಲಿರುವ, ಜಗತ್ತಿನ ಅತ್ಯಂತ ವಿಸ್ಮಯಕಾರಿ ಕಲ್ಲಿನ ವಾಸ್ತುಶಿಲ್ಪದ ಸಂಕೀರ್ಣ ಹಾಗೂ ಯುನೆಸ್ಕೋ ವಿಶ್ವ ಪರಂಪರೆಯ ತಾಣವಾದ ಎಲ್ಲೋರಾ ಗುಹೆಗಳಿಗೆ ಸುಸ್ವಾಗತ."
+      },
+      {
+        "start": 10.68,
+        "end": 23.21,
+        "text": "ಚರಣಾದ್ರಿ ಬೆಟ್ಟಗಳ ಜ್ವಾಲಾಮುಖಿ ಕಪ್ಪುಶಿಲೆಯಲ್ಲಿ ೬ ರಿಂದ ೧೦ನೇ ಶತಮಾನಗಳ ಕಾಲಾವಧಿಯಲ್ಲಿ ಕೆತ್ತಲಾದ ಮೂವತ್ನಾಲ್ಕು ಭವ್ಯ ಗುಹೆಗಳು ಬೌದ್ಧ, ಹಿಂದೂ ಮತ್ತು ಜೈನ ಧರ್ಮಗಳ ಪರಸ್ಪರ ಸೌಹಾರ್ದತೆಯ ಪ್ರತೀಕವಾಗಿವೆ."
+      },
+      {
+        "start": 23.21,
+        "end": 29.81,
+        "text": "ಈ ಇಡೀ ಸಂಕೀರ್ಣದ ಪರಮೋಚ್ಛ ಕಲಾಕೃತಿಯೆಂದರೆ ಹದಿನಾರನೇ ಗುಹೆಯಾದ ಜಗತ್ಪ್ರಸಿದ್ಧ ಕೈಲಾಸ ದೇವಾಲಯ."
+      },
+      {
+        "start": 29.81,
+        "end": 37.3,
+        "text": "ಇದನ್ನು ೮ನೇ ಶತಮಾನದಲ್ಲಿ ರಾಷ್ಟ್ರಕೂಟ ಸಾಮ್ರಾಜ್ಯದ ಮಹಾನ್ ಚಕ್ರವರ್ತಿ ಒಂದನೇ ಕೃಷ್ಣನು ಶಿವನ ಆರಾಧನೆಗಾಗಿ ನಿರ್ಮಿಸಿದನು."
+      },
+      {
+        "start": 37.3,
+        "end": 50.09,
+        "text": "ಕೈಲಾಸ ದೇವಾಲಯವು ಭೂಮಿಯ ಮೇಲಿನ ಅತಿ ದೊಡ್ಡ ಏಕಶಿಲಾ ಕೆತ್ತನೆಯಾಗಿದೆ; ಇದನ್ನು ಕಲ್ಲುಗಳನ್ನು ಜೋಡಿಸಿ ಕಟ್ಟಿಲ್ಲ, ಬದಲಿಗೆ ಪರ್ವತದ ಮೇಲ್ಭಾಗದಿಂದ ಕೆಳಮುಖವಾಗಿ ಕಡಿದು ಕೆತ್ತಲಾದ ಸಾಹಸಮಯ ಇಂಜಿನಿಯರಿಂಗ್ ಚಮತ್ಕಾರವಾಗಿದೆ."
+      },
+      {
+        "start": 50.09,
+        "end": 58.48,
+        "text": "ಸುಮಾರು ಎರಡು ರಿಂದ ನಾಲ್ಕು ಲಕ್ಷ ಟನ್‌ಗಳಷ್ಟು ಗಟ್ಟಿ ಬಂಡೆಯನ್ನು ಕೇವಲ ಸುತ್ತಿಗೆ ಮತ್ತು ಉಳಿಗಳನ್ನು ಬಳಸಿ ಹಲವು ದಶಕಗಳ ಕಾಲ ತೆಗೆದುಹಾಕಲಾಯಿತು."
+      },
+      {
+        "start": 58.48,
+        "end": 68.65,
+        "text": "ಶಿವನ ಪವಿತ್ರ ಹಿಮಾಲಯದ ನೆಲೆ ಕೈಲಾಸ ಪರ್ವತವನ್ನು ಹೋಲುವಂತೆ ವಿನ್ಯಾಸಗೊಳಿಸಲಾದ ಈ ದೇವಾಲಯವು ಬೃಹತ್ ದ್ರಾವಿಡ ಶಿಖರ, ನಂದಿ ಮಂಟಪ ಮತ್ತು ಧ್ವಜಸ್ತಂಭಗಳನ್ನು ಒಳಗೊಂಡಿದೆ."
+      },
+      {
+        "start": 68.65,
+        "end": 77.25,
+        "text": "ದೇವಾಲಯದ ತಳಭಾಗದಲ್ಲಿ ಕೆತ್ತಲಾದ ಜೀವಂತ ಗಾತ್ರದ ಆನೆಗಳ ಶಿಲ್ಪಗಳು ಇಡೀ ದೇವಾಲಯವನ್ನು ತಮ್ಮ ಬೆನ್ನಿನ ಮೇಲೆ ಹೊತ್ತಿರುವಂತೆ ಭಾಸವಾಗುತ್ತದೆ."
+      },
+      {
+        "start": 77.25,
+        "end": 85.69,
+        "text": "ರಾವಣನು ಕೈಲಾಸ ಪರ್ವತವನ್ನು ಅಲುಗಾಡಿಸುವ ಅಪೂರ್ವ ಶಿಲ್ಪವು ಭಾರತೀಯ ಶಿಲ್ಪಕಲೆಯ ಉನ್ನತ ನಾಟಕೀಯ ಅಭಿವ್ಯಕ್ತಿಗೆ ಶ್ರೇಷ್ಠ ಉದಾಹರಣೆಯಾಗಿದೆ."
+      },
+      {
+        "start": 85.69,
+        "end": 97.21,
+        "text": "೧೯೮೩ ರಲ್ಲಿ ಯುನೆಸ್ಕೋ ವಿಶ್ವ ಪರಂಪರೆಯ ತಾಣವೆಂದು ಮಾನ್ಯತೆ ಪಡೆದ ಎಲ್ಲೋರಾ, ಪ್ರಾಚೀನ ಭಾರತೀಯರ ಅದಮ್ಯ ಕಲ್ಪನಾಶಕ್ತಿ ಮತ್ತು ಇಂಜಿನಿಯರಿಂಗ್ ಸಾಮರ್ಥ್ಯಕ್ಕೆ ಜೀವಂತ ಸಾಕ್ಷಿಯಾಗಿದೆ."
+      },
+      {
+        "start": 97.21,
+        "end": 104.29,
+        "text": "ಈ 3D ಮಾದರಿಯನ್ನು ಪರಿಶೀಲಿಸಿ, ಕೈಲಾಸ ದೇವಾಲಯದ ಏಕಶಿಲಾ ಶಿಲ್ಪಕಲೆಯ ಮಹೋನ್ನತ ವೈಭವವನ್ನು ಕಣ್ತುಂಬಿಕೊಳ್ಳಿ."
+      }
+    ],
+    "hi": [
+      {
+        "start": 0.1,
+        "end": 14.18,
+        "text": "महाराष्ट्र के औरंगाबाद जिले में सह्याद्रि की चरणांद्री पहाड़ियों में स्थित, विश्व के सबसे विस्मयकारी शैलकृत स्थापत्य और यूनेस्को विश्व धरोहर, एलोरा की गुफाओं में आपका स्वागत है।"
+      },
+      {
+        "start": 14.12,
+        "end": 27.61,
+        "text": "छठी से दसवीं शताब्दी के मध्य बेसाल्ट चट्टानों को तराशकर बनाई गई ये चौंतीस गुफाएँ बौद्ध, हिंदू और जैन धर्मों के सह-अस्तित्व और धार्मिक सौहार्द का अद्वितीय प्रमाण हैं।"
+      },
+      {
+        "start": 27.61,
+        "end": 34.67,
+        "text": "इस पूरे परिसर का सर्वोत्कृष्ट शिखर है गुफा संख्या सोलह: विश्वविख्यात कैलास मंदिर।"
+      },
+      {
+        "start": 34.67,
+        "end": 46.54,
+        "text": "इस अद्वितीय मंदिर का निर्माण आठवीं शताब्दी में राष्ट्रकूट राजवंश के प्रतापी राजा कृष्ण प्रथम के शासनकाल में भगवान शिव के पावन निवास के रूप में हुआ था।"
+      },
+      {
+        "start": 46.54,
+        "end": 60.35,
+        "text": "कैलास मंदिर विश्व का सबसे बड़ा एकाश्म यानी सिंगल रॉक-कट स्थापत्य चमत्कार है; इसे पत्थरों को जोड़कर नहीं, बल्कि पूरी पहाड़ी को ऊपर से नीचे की ओर काटकर तराशा गया है।"
+      },
+      {
+        "start": 60.35,
+        "end": 70.59,
+        "text": "अनुमान है कि केवल हथौड़ी और छेनी के पारंपरिक औजारों से लगभग दो से चार लाख टन ठोस चट्टान को काटकर बाहर निकाला गया था।"
+      },
+      {
+        "start": 70.59,
+        "end": 83.09,
+        "text": "हिमालय के पवित्र कैलास पर्वत के स्वरूप में निर्मित इस बहुमंजिला मंदिर में एक भव्य द्रविड़ शिखर, नंदी मंडप और दो विशाल विजय स्तंभ या ध्वजस्तंभ विद्यमान हैं।"
+      },
+      {
+        "start": 83.09,
+        "end": 93.56,
+        "text": "मंदिर के आधार पर आदमकद हाथियों की पंक्तियाँ तराशी गई हैं, जो पूरे विशाल मंदिर को अपनी पीठ पर थामे हुए प्रतीत होती हैं।"
+      },
+      {
+        "start": 93.56,
+        "end": 104.8,
+        "text": "इसकी दीवारों पर रावण द्वारा कैलास पर्वत को उठाने का प्रसिद्ध दृश्य भारतीय मूर्तिकला के गतिशीलता, भाव और संतुलन का अद्वितीय उदाहरण है।"
+      },
+      {
+        "start": 104.8,
+        "end": 117.78,
+        "text": "वर्ष 1983 में यूनेस्को द्वारा विश्व धरोहर घोषित एलोरा की गुफाएँ प्राचीन भारतीय शिल्पकारों के साहस, वास्तुकला और तकनीकी कौशल का अमर स्मारक हैं।"
+      },
+      {
+        "start": 117.78,
+        "end": 128.24,
+        "text": "हम आपको इस 3D मॉडल का अवलोकन करने और कैलास मंदिर के अद्भुत शैलकृत वैभव का अनुभव करने के लिए आमंत्रित करते हैं।"
+      }
+    ]
+  }
+}

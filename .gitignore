@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production Build Output
+dist/
+dist-ssr/
+
+# Environment Variables (CRITICAL SECURITY)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Temporary and Cache Directories
+.chrome_run_profile/
+.chrome_test_profile_*/
+test-screenshots/
+scratch/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+.vercel
+.env*

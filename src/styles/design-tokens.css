@@ -1,0 +1,53 @@
+/**
+ * BHARAT ROYALE — MASTER DESIGN TOKENS
+ * Signature Dark Charcoal & Antique Gold System
+ * Philosophy: Ancient Civilization. Timeless Stories. Digital Exploration.
+ */
+
+:root {
+  /* Signature Charcoal & Antique Gold Palette */
+  --bg-main: #151719;
+  --bg-secondary: #1C1F21;
+  --surface-elevated: #242729;
+  --surface-card: #292C2E;
+
+  /* Gold Hierarchy */
+  --gold-antique: #C6A15B;
+  --gold-highlight: #E0C27B;
+  --gold-muted: #8F7545;
+
+  /* Text System */
+  --text-primary: #F3EBDD;
+  --text-secondary: #B8B2A6;
+  --text-muted: #858078;
+
+  /* Borders & Dividers */
+  --border-subtle: rgba(198, 161, 91, 0.22);
+  --border-medium: rgba(198, 161, 91, 0.40);
+  --border-highlight: rgba(224, 194, 123, 0.65);
+
+  /* Heritage Accent Tones */
+  --accent-terracotta: #713C32;
+  --accent-green: #34483D;
+  --accent-sandstone: #A88C68;
+
+  /* Typography Font Families */
+  --font-editorial: 'Playfair Display', Georgia, serif;
+  --font-display: 'Cinzel', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-nav: 'Inter', sans-serif;
+  --font-numeric: 'Montserrat', sans-serif;
+
+  /* 360° Exploration Immersive Palette */
+  --viewer-bg: #151719;
+  --viewer-panel: #1C1F21;
+  --viewer-panel-translucent: rgba(28, 31, 33, 0.94);
+  --viewer-panel-glass: rgba(21, 23, 25, 0.88);
+  --viewer-border: rgba(198, 161, 91, 0.28);
+  --viewer-border-hover: rgba(224, 194, 123, 0.7);
+  --viewer-gold: #C6A15B;
+  --viewer-gold-glow: rgba(224, 194, 123, 0.35);
+  --viewer-text: #F3EBDD;
+  --viewer-text-secondary: #B8B2A6;
+  --viewer-text-muted: #858078;
+}

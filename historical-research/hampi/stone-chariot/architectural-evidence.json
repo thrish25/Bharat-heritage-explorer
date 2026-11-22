@@ -1,0 +1,218 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Hampi Stone Chariot Audited Architectural Evidence Database",
+  "project": "Royal Heritage Platform — Historical Digital Reconstruction",
+  "pilotMonument": "Hampi Stone Chariot (Garuda Shrine)",
+  "version": "1.1.0",
+  "auditDate": "2026-11-14",
+  "evidenceClassificationScheme": {
+    "VERIFIED": "Directly documented or supported by strong independent historical or physical evidence.",
+    "PROBABLE": "Supported by credible evidence and academic consensus but not conclusively established.",
+    "UNCERTAIN": "Insufficient historical evidence to establish original form or occurrence.",
+    "UNSUPPORTED": "No reliable evidence identified; must be excluded from reconstruction specifications."
+  },
+  "monumentIdentity": {
+    "monumentName": "Hampi Stone Chariot (Kallina Ratha)",
+    "complex": "Vijaya Vittala Temple Precinct, Sacred Centre, Hampi",
+    "districtState": "Vijayanagara District, Karnataka, India",
+    "typology": "Garuda-mandapa / Processional Car Shrine (Ratha-vimana)",
+    "periodOfConstruction": "16th Century CE (Vijayanagara Tuluva Period, attributed to reign of Emperor Krishnadevaraya 1509–1529 CE)",
+    "periodClassification": "PROBABLE (General era is verified; exact year is unrecorded in epigraphs)",
+    "dynasty": "Tuluva Dynasty, Vijayanagara Empire",
+    "religiousDedication": "Garuda (the celestial eagle vahana of Lord Vishnu / Vitthala)",
+    "unescoReference": "UNESCO World Heritage Site Ref. 241 (Inscribed 1986)",
+    "conservationAuthority": "Archaeological Survey of India (ASI), Hampi Circle"
+  },
+  "architecturalComponents": [
+    {
+      "componentId": "COMP-01-PLINTH",
+      "componentName": "Molded Granite Plinth and Sub-base",
+      "traditionalDravidianTerm": "Upapitha and Adhisthana",
+      "material": "Dressed gray chloritic granite ashlar blocks",
+      "constructionTechnique": "Horizontal courses of interlocking stone masonry with concealed mortise joints",
+      "dimensionsDocumented": {
+        "approxLengthMeters": 7.5,
+        "approxWidthMeters": 4.5,
+        "approxHeightMeters": 1.65,
+        "dimensionAccuracy": "PROBABLE (Standard field survey approximation)"
+      },
+      "sixteenthCenturyOriginalCondition": "Carved multi-tiered platform with continuous friezes of battle elephants, galloping cavalry with foreign grooms, mythical vyalas, and lotus petals, coated in lime wash with painted accents.",
+      "eighteenFiftySixCondition": "Completely preserved in-situ; courtyard ground level slightly higher due to accumulated soil (Greenlaw 1856, Neill 1856).",
+      "presentDayCondition": "Fully preserved, cleaned, and stabilized in-situ by ASI with protective cordoned apron.",
+      "verificationStatus": "VERIFIED",
+      "primarySourceIds": ["SRC-ASI-01", "SRC-ACAD-05", "SRC-PHOTO-06"],
+      "reconstructionRule": "MUST REMAIN 100% UNALTERED. Authentic surviving fabric must not be replaced, modified, or recolored."
+    },
+    {
+      "componentId": "COMP-02-WHEELS-AXLES",
+      "componentName": "Four Monolithic Lotus Wheels and Stone Axles",
+      "traditionalDravidianTerm": "Ratha Cakra and Aksha",
+      "material": "Carved granite",
+      "constructionTechnique": "Four circular stone discs mounted on cylindrical stone shafts passing through the chassis undercarriage; central hubs carved with radiating lotus petal bosses",
+      "dimensionsDocumented": {
+        "approxWheelDiameterMeters": 0.98,
+        "approxWheelThicknessMeters": 0.22,
+        "dimensionAccuracy": "PROBABLE (In-situ measured approximation)"
+      },
+      "sixteenthCenturyOriginalCondition": "Engineered with independent stone axles passing through chassis sleeves with intentional lapidary clearance, representing processional temple ratha wheels. Carved with radiating lotus petals and concentric beaded bands.",
+      "eighteenFiftySixCondition": "Completely preserved in-situ (Greenlaw 1856, Neill 1856).",
+      "presentDayCondition": "Fully preserved. Axles were mortared/cemented in the 20th century by ASI to halt tourist rotation and protect granite pins from frictional wear.",
+      "verificationStatus": "VERIFIED",
+      "primarySourceIds": ["SRC-ASI-01", "SRC-ASI-PUB-03", "SRC-PHOTO-07"],
+      "unsupportedClaimsFlagged": [
+        "Claim that wheels 'freely rotated during annual Brahmotsava festivals' is an UNSUPPORTED popular embellishment; ritual rotation of stone wheels is unrecorded in historical or epigraphical texts."
+      ],
+      "reconstructionRule": "MUST REMAIN 100% UNALTERED. Wheel geometry and surface carvings are authentic 16th-century originals."
+    },
+    {
+      "componentId": "COMP-03-SANCTUM-CELLA",
+      "componentName": "Inner Garuda Sanctum Cella",
+      "traditionalDravidianTerm": "Garbhagriha / Garuda-pitha",
+      "material": "Dressed granite wall panels and corner pilasters",
+      "constructionTechnique": "Modular granite wall slabs joined with hidden interlocking joints; west-facing doorway aligned with Vitthala sanctum",
+      "dimensionsDocumented": {
+        "interiorLengthApproxMeters": 1.8,
+        "interiorWidthApproxMeters": 1.8,
+        "dimensionAccuracy": "PROBABLE (Field survey approximation; not a certified modular standard)"
+      },
+      "sixteenthCenturyOriginalCondition": "Consecrated shrine chamber housing a stone or metal idol of Garuda facing Lord Vitthala.",
+      "eighteenFiftySixCondition": "Enclosed granite cella intact; interior empty, idol already lost following 1565 destruction.",
+      "presentDayCondition": "Intact granite walls and pilasters. Empty interior cella.",
+      "verificationStatus": "VERIFIED_FOR_CELLA_STRUCTURE__UNCERTAIN_FOR_IDOL",
+      "primarySourceIds": ["SRC-ASI-01", "SRC-ASI-PUB-03", "SRC-ACAD-05"],
+      "unsupportedClaimsFlagged": [
+        "Exact physical dimensions or iconographic attributes of the lost Garuda idol are UNCERTAIN. No speculative idol should be fabricated."
+      ],
+      "reconstructionRule": "Cella exterior walls must remain unaltered. Interior must remain shadowed or depicted with an empty pedestal."
+    },
+    {
+      "componentId": "COMP-04-PILLARS-BRACKETS",
+      "componentName": "Corner Pilasters and Pushpapotika Brackets",
+      "traditionalDravidianTerm": "Kanta-stambha and Pushpapotika-bodigai",
+      "material": "Carved monolithic granite",
+      "constructionTechnique": "Corner pilasters with multi-faceted shafts, bell capitals, and double-curved corbel brackets terminating in downward lotus buds",
+      "sixteenthCenturyOriginalCondition": "Finely chiseled Dravidian bracket capitals supporting the stone roof cornice.",
+      "eighteenFiftySixCondition": "Intact in-situ.",
+      "presentDayCondition": "Fully preserved in-situ in exceptional condition.",
+      "verificationStatus": "VERIFIED",
+      "primarySourceIds": ["SRC-ACAD-05", "SRC-ASI-01", "IMG-MOD-2016-DARSI-03"],
+      "reconstructionRule": "MUST REMAIN 100% UNALTERED."
+    },
+    {
+      "componentId": "COMP-05-ROOF-CORNICE",
+      "componentName": "Horizontal Overhanging Cornice and Roof Terrace",
+      "traditionalDravidianTerm": "Kapota and Prastara",
+      "material": "Dressed granite roof slabs with flexured drip-edge",
+      "constructionTechnique": "Cantilevered granite eaves with carved simulated rafters on underside; upper surface features masonry sockets where brick superstructure was seated",
+      "sixteenthCenturyOriginalCondition": "Cantilevered stone cornice supporting the masonry bed of the brick-and-stucco Dravidian vimana superstructure.",
+      "eighteenFiftySixCondition": "Supporting the intact brick-and-mortar superstructure (Greenlaw 1856, Neill 1856).",
+      "presentDayCondition": "Flat bare stone terrace exposed to the sky; socket scars and masonry bedding lines remain visible on top.",
+      "verificationStatus": "VERIFIED",
+      "primarySourceIds": ["SRC-PHOTO-06", "SRC-PHOTO-07", "SRC-ACAD-05"],
+      "reconstructionRule": "The granite cornice must remain unchanged; the flat upper terrace is the exact geometric foundation plane for digital vimana reconstruction."
+    },
+    {
+      "componentId": "COMP-06-BRICK-VIMANA",
+      "componentName": "Lost Multi-Tiered Brick and Stucco Dravidian Superstructure",
+      "traditionalDravidianTerm": "Vimana / Shikhara / Stupika",
+      "material": "High-fired clay brick masonry in lime mortar (chunam) surfaced with molded lime plaster (sudha)",
+      "constructionTechnique": "Stepped pyramidal Dravidian storeys (talas) detailed with miniature pavilions (kutas, salas) crowned by a domical sikhara and stupi/kalasa finial",
+      "dimensionsDocumented": {
+        "metricHeight": "UNSUPPORTED (Unmeasured prior to loss)",
+        "proportionalHeight": "VERIFIED (~1:1 visual height ratio relative to the granite body in 1856 elevation photographs)",
+        "tierCount": "PROBABLE (2 primary receding talas with crowning griva/sikhara)"
+      },
+      "sixteenthCenturyOriginalCondition": "Brilliantly painted Dravidian tower rising above the granite chariot body, creating composite contrast between dark granite socle and vivid stucco superstructure.",
+      "eighteenFiftySixCondition": "DOCUMENTED AS STANDING AND INTACT in both Colonel Greenlaw's 1856 calotype (V&A/Alkazi) and Dr. Neill's 1856 albumen print (RCIN 2603956). Exhibited weathered plaster and minor shrub growth.",
+      "presentDayCondition": "COMPLETELY MISSING. Lost or removed between 1856 and 1917 (absent in Longhurst 1917).",
+      "verificationStatus": {
+        "presenceIn1856": "VERIFIED",
+        "steppedPyramidalSilhouette": "VERIFIED",
+        "crowningDomicalSikhara": "VERIFIED",
+        "exactMetricHeight": "UNSUPPORTED (Must use proportional visual scaling)",
+        "tierCount": "PROBABLE",
+        "microStuccoFiguralReliefs": "UNCERTAIN (Cannot be resolved from 1856 calotype grain)",
+        "removalCause": "UNCERTAIN (No archival record of British PWD dismantling order exists)"
+      },
+      "primarySourceIds": ["SRC-PHOTO-06", "SRC-PHOTO-07", "SRC-ASI-PUB-03", "SRC-ACAD-08"],
+      "unsupportedClaimsFlagged": [
+        "Claim of exact height '3.2 meters' is UNSUPPORTED by physical survey.",
+        "Claim that 'British engineers ordered dismantling to alleviate weight' is an UNVERIFIED popular story unrecorded in colonial or ASI archives."
+      ],
+      "reconstructionRule": "PRIMARY OBJECTIVE FOR HISTORICAL RECONSTRUCTION. Reconstruct the superstructure conforming strictly to the outer stepped silhouette and 1:1 proportional envelope documented in Greenlaw 1856 and Neill 1856. Stucco details must follow surviving contemporary 16th-century Vijayanagara brick vimanas (e.g., Hazara Rama subsidiary shrines) without fabricating fantasy sculptures."
+    },
+    {
+      "componentId": "COMP-07-DRAFT-HORSES",
+      "componentName": "Original Carved Draft Animals on Balustrades (Horses)",
+      "traditionalDravidianTerm": "Ashva-sopana / Ratha-turaga",
+      "material": "Carved granite",
+      "constructionTechnique": "Relief carvings integrated directly into the granite entrance balustrades",
+      "sixteenthCenturyOriginalCondition": "Two draft animals sculpted pulling the celestial chariot of Garuda toward the main temple.",
+      "eighteenFiftySixCondition": "Already broken prior to 1856. Greenlaw 1856 and Neill 1856 show damaged balustrades without protruding animal heads. No elephants were present.",
+      "presentDayCondition": "Partially obscured behind modern elephant sculptures. Reliefs of hind legs, hocks, and tails survive in-situ on the balustrades.",
+      "verificationStatus": {
+        "hindquartersReliefInSitu": "VERIFIED",
+        "identificationAsHorses": "PROBABLE (Longhurst 1917; standard Dravidian ratha typology)",
+        "forequartersAnatomy": "UNCERTAIN / LOST",
+        "museumFragments": "UNSUPPORTED (No catalogued fragments exist)"
+      },
+      "primarySourceIds": ["SRC-ASI-PUB-03", "SRC-ASI-01", "IMG-ARCH-IN-SITU-HORSE-05"],
+      "unsupportedClaimsFlagged": [
+        "Claim that 'portions of the horses are preserved in museum archives' is UNSUPPORTED by museum catalogues."
+      ],
+      "reconstructionRule": "In a 16th-century historical visualization, the modern elephants should be removed. Representing draft horses must be based cautiously on contemporary Vijayanagara horse carvings (e.g., Vittala Kalyana Mandapa) and explicitly classified as an informed hypothesis."
+    },
+    {
+      "componentId": "COMP-08-GUARDIAN-ELEPHANTS",
+      "componentName": "Front Guardian Stone Elephants (Modern Conservation Addition)",
+      "traditionalDravidianTerm": "Gaja-dwarapala (Secondary placement)",
+      "material": "Carved granite",
+      "constructionTechnique": "Freestanding monolithic elephant carvings placed abutting entrance balustrades",
+      "sixteenthCenturyOriginalCondition": "NOT PRESENT on the Stone Chariot in the 16th century.",
+      "eighteenFiftySixCondition": "DEFINITIVELY ABSENT. Proven by Colonel Greenlaw's 1856 calotype and Dr. Neill's 1856 photograph (RCIN 2603956), showing completely clear ground.",
+      "presentDayCondition": "Two caparisoned stone elephants stand in front of the staircase.",
+      "verificationStatus": {
+        "absenceIn1856": "VERIFIED",
+        "presenceIn1917": "VERIFIED",
+        "modernAdditionStatus": "VERIFIED",
+        "placementDateWindow": "PROBABLE (Between 1857 and 1916)",
+        "originFromElephantStables": "UNSUPPORTED (Unrecorded in archival transfer logs)"
+      },
+      "primarySourceIds": ["SRC-PHOTO-06", "SRC-PHOTO-07", "SRC-ASI-PUB-03", "SRC-ACAD-08"],
+      "unsupportedClaimsFlagged": [
+        "Popular claim that elephants were brought from 'Elephant Stables' or another specific temple is UNSUPPORTED by documentation."
+      ],
+      "reconstructionRule": "MUST BE MASKED OR REMOVED in an authentic 16th-century historical reconstruction. Must remain visible in present-day 360° exploration."
+    },
+    {
+      "componentId": "COMP-09-DECORATIVE-FRIEZES",
+      "componentName": "Bas-Relief Friezes of Warriors, Arab Horses, and Vyalas",
+      "traditionalDravidianTerm": "Pitha-bandha and Pattika bas-reliefs",
+      "material": "Carved granite panels",
+      "sixteenthCenturyOriginalCondition": "Processional friezes reflecting Vijayanagara cosmopolitan life: soldiers, imported Arabian horses led by foreign grooms, and mythical vyalas.",
+      "eighteenFiftySixCondition": "Preserved in-situ.",
+      "presentDayCondition": "Fully preserved in-situ in sharp relief.",
+      "verificationStatus": "VERIFIED",
+      "primarySourceIds": ["SRC-ASI-01", "SRC-ACAD-05", "IMG-MOD-2016-DARSI-03"],
+      "reconstructionRule": "MUST REMAIN 100% UNALTERED. Preserved original Vijayanagara craftsmanship."
+    },
+    {
+      "componentId": "COMP-10-POLYCHROME-SURFACE",
+      "componentName": "Original Painted Plaster and Polychrome Stucco Surface",
+      "traditionalDravidianTerm": "Sudha-lepana and Chitra-varna",
+      "material": "Slaked shell-lime plaster (chunam) and mineral pigments",
+      "sixteenthCenturyOriginalCondition": "Coated in fine lime plaster with painted pigment accents.",
+      "eighteenFiftySixCondition": "Outer plaster coat weathered away; faded pigment in sheltered recesses.",
+      "presentDayCondition": "Trace microscopic pigment flecks in deep undercuts beneath chassis.",
+      "verificationStatus": {
+        "existenceOfPlasterAndPaint": "VERIFIED",
+        "fullColorDistributionMap": "UNSUPPORTED / UNCERTAIN"
+      },
+      "primarySourceIds": ["SRC-ASI-01", "SRC-ASI-BK-04"],
+      "unsupportedClaimsFlagged": [
+        "Claims of a specific full-body polychrome scheme (vermilion, blue, black borders across every molding) are UNSUPPORTED for this specific monument."
+      ],
+      "reconstructionRule": "Maintain natural granite and aged lime wash textures for visual reconstruction. Do not apply speculative synthetic modern CGI colors."
+    }
+  ]
+}
