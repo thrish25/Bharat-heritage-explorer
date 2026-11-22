@@ -6,6 +6,7 @@ export const ELLORA_AR_CONFIG: ARMonumentConfig = {
   audioPrefix: 'ellora',
   subtitleKey: 'ellora',
   modelSrc: '/assets/models/ellora-caves.glb',
+  posterSrc: '/assets/images/ar/ellora-ar-poster.webp',
   name: {
     en: 'Ellora Caves (Kailasa Temple)',
     kn: 'ಎಲ್ಲೋರಾ ಗುಹೆಗಳು (ಕೈಲಾಸ ದೇವಾಲಯ)',

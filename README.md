@@ -73,10 +73,10 @@ npm run preview
 
 | Developer | Branch | Responsibility Scope | Dedicated Modules |
 |---|---|---|---|
-| **Thrisha** | `feature/thrisha` | **Virtual Exploration Lead** | `src/modules/virtual-exploration/{ellora, hampi, taj-mahal}/` |
-| **Suchithra BR** | `feature/suchithra` | **Augmented Reality (AR) Lead** | `src/modules/ar/{ellora, hampi, taj-mahal}/` |
-| **Rashmi** | `feature/rashmi` | **Konark Subsystem Lead** | `src/modules/{virtual-exploration, ar}/konark/` |
-| **Integrated Core** | `main` | **Master Common Platform** | `src/pages/`, `src/components/`, `src/data/`, `src/styles/` |
+| **Thrisha** | `feature/thrisha` | **Virtual Exploration Lead** | `src/modules/thrisha/{ellora, hampi, taj-mahal}-virtual/` |
+| **Suchithra BR** | `feature/suchithra` | **Augmented Reality (AR) Lead** | `src/modules/suchithra/{ellora, hampi, taj-mahal}-ar/` |
+| **Rashmi** | `feature/rashmi` | **Konark Subsystem Lead** | `src/modules/rashmi/konark-{virtual, ar}/` |
+| **Integrated Core** | `main` | **Master Common Platform** | `src/common/`, `src/pages/`, `src/data/`, `src/styles/` |
 
 ---
 
